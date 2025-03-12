@@ -3,74 +3,79 @@ export const content = {
   header: {
     name: {
       en: "John Doe",
-      fr: "Jean Dupont"
+      ru: "Джон Доу"
     },
     profession: {
       en: "Product Designer & Developer",
-      fr: "Designer de Produit & Développeur"
+      ru: "Дизайнер Продукта & Разработчик"
     },
     bio: {
       en: "Passionate about creating seamless digital experiences through thoughtful design and clean development. I combine strategic thinking with technical execution to build products people love.",
-      fr: "Passionné par la création d'expériences numériques fluides grâce à une conception réfléchie et un développement propre. Je combine réflexion stratégique et exécution technique pour créer des produits que les gens adorent."
+      ru: "Увлечен созданием плавных цифровых впечатлений через продуманный дизайн и чистую разработку. Я сочетаю стратегическое мышление с техническим исполнением, чтобы создавать продукты, которые люди любят."
+    },
+    photo: "/profile-photo.jpg", // Will be added
+    contact: {
+      email: "john.doe@example.com",
+      telegram: "johndoe"
     }
   },
   languages: {
     en: "English",
-    fr: "Français"
+    ru: "Русский"
   },
   experience: [
     {
       title: {
         en: "Senior UX Designer",
-        fr: "Designer UX Senior"
+        ru: "Старший UX Дизайнер"
       },
       company: {
         en: "Design Forward",
-        fr: "Design Forward"
+        ru: "Design Forward"
       },
       period: {
         en: "Jan 2020 - Present",
-        fr: "Jan 2020 - Présent"
+        ru: "Янв 2020 - Настоящее время"
       },
       logo: "/placeholder.svg",
       description: {
         en: "Leading design initiatives for enterprise clients, focused on creating intuitive and accessible interfaces. Established design system and mentored junior designers.",
-        fr: "Diriger des initiatives de conception pour des clients d'entreprise, en se concentrant sur la création d'interfaces intuitives et accessibles. A établi un système de conception et encadré des designers juniors."
+        ru: "Руководство инициативами дизайна для корпоративных клиентов, с акцентом на создание интуитивных и доступных интерфейсов. Создал систему дизайна и наставлял младших дизайнеров."
       },
       projects: [
         {
           title: {
             en: "Financial Dashboard Redesign",
-            fr: "Refonte du Tableau de Bord Financier"
+            ru: "Редизайн Финансовой Панели"
           },
           description: {
-            en: "Completely overhauled a complex financial dashboard used by over 2,000 financial analysts daily. Reduced task completion time by 35% and increased user satisfaction scores by 52%.",
-            fr: "Refonte complète d'un tableau de bord financier complexe utilisé quotidiennement par plus de 2 000 analystes financiers. Réduction du temps d'exécution des tâches de 35 % et augmentation des scores de satisfaction des utilisateurs de 52 %."
+            en: "Completely overhauled a complex financial dashboard used by over 2,000 financial analysts daily. Reduced task completion time by 35% and increased user satisfaction scores by 52%. Check out the <a href='https://example.com/case-study' target='_blank' class='text-primary underline hover:text-primary/80'>detailed case study</a>.",
+            ru: "Полностью переработал сложную финансовую панель, используемую более чем 2000 финансовыми аналитиками ежедневно. Сократил время выполнения задач на 35% и повысил показатели удовлетворенности пользователей на 52%. Ознакомьтесь с <a href='https://example.com/case-study' target='_blank' class='text-primary underline hover:text-primary/80'>подробным разбором кейса</a>."
           },
           media: {
             type: "image",
             url: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&q=80&w=2500",
             alt: {
               en: "Financial dashboard interface showing analytics and graphs",
-              fr: "Interface de tableau de bord financier montrant des analyses et des graphiques"
+              ru: "Интерфейс финансовой панели, показывающий аналитику и графики"
             }
           }
         },
         {
           title: {
             en: "Mobile Banking App",
-            fr: "Application Bancaire Mobile"
+            ru: "Мобильное Банковское Приложение"
           },
           description: {
             en: "Designed and launched a new banking app focused on millennial users. Features included personalized insights, goal-based savings, and simplified investment options.",
-            fr: "Conception et lancement d'une nouvelle application bancaire destinée aux utilisateurs millennials. Les fonctionnalités comprenaient des informations personnalisées, des économies basées sur des objectifs et des options d'investissement simplifiées."
+            ru: "Разработал и запустил новое банковское приложение, ориентированное на пользователей-миллениалов. Функции включали персонализированные аналитические данные, накопления на основе целей и упрощенные варианты инвестирования."
           },
           media: {
             type: "image",
             url: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&q=80&w=2500",
             alt: {
               en: "Mobile banking application interface",
-              fr: "Interface d'application bancaire mobile"
+              ru: "Интерфейс мобильного банковского приложения"
             }
           }
         }
@@ -79,37 +84,37 @@ export const content = {
     {
       title: {
         en: "Product Designer",
-        fr: "Designer de Produit"
+        ru: "Дизайнер Продукта"
       },
       company: {
         en: "Innovate Tech",
-        fr: "Innovate Tech"
+        ru: "Innovate Tech"
       },
       period: {
         en: "Mar 2018 - Dec 2019",
-        fr: "Mar 2018 - Déc 2019"
+        ru: "Мар 2018 - Дек 2019"
       },
       logo: "/placeholder.svg",
       description: {
         en: "Responsible for end-to-end product design for a SaaS analytics platform. Collaborated closely with engineering and product management to deliver seamless user experiences.",
-        fr: "Responsable de la conception de produits de bout en bout pour une plateforme d'analyse SaaS. A collaboré étroitement avec l'ingénierie et la gestion des produits pour offrir des expériences utilisateur transparentes."
+        ru: "Отвечал за комплексный дизайн продукта для аналитической платформы SaaS. Тесно сотрудничал с инженерией и управлением продуктами для обеспечения безупречного пользовательского опыта."
       },
       projects: [
         {
           title: {
             en: "Analytics Dashboard",
-            fr: "Tableau de Bord d'Analyse"
+            ru: "Аналитическая Панель"
           },
           description: {
-            en: "Created a real-time analytics dashboard that processed over 1 million data points daily. Implemented innovative visualization techniques to make complex data accessible.",
-            fr: "Création d'un tableau de bord d'analyse en temps réel qui traite plus d'un million de points de données par jour. Mise en œuvre de techniques de visualisation innovantes pour rendre les données complexes accessibles."
+            en: "Created a real-time analytics dashboard that processed over 1 million data points daily. Implemented innovative visualization techniques to make complex data accessible. Watch our <a href='https://www.youtube.com/watch?v=dQw4w9WgXcQ&t=25s' target='_blank' class='text-primary underline hover:text-primary/80'>tutorial video</a> starting at 0:25.",
+            ru: "Создал панель аналитики в реальном времени, которая обрабатывает более 1 миллиона точек данных ежедневно. Внедрил инновационные методы визуализации, чтобы сделать сложные данные доступными. Посмотрите наше <a href='https://www.youtube.com/watch?v=dQw4w9WgXcQ&t=25s' target='_blank' class='text-primary underline hover:text-primary/80'>обучающее видео</a>, начиная с 0:25."
           },
           media: {
             type: "image",
             url: "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80&w=2500",
             alt: {
               en: "Analytics dashboard with data visualizations",
-              fr: "Tableau de bord d'analyse avec visualisations de données"
+              ru: "Панель аналитики с визуализацией данных"
             }
           }
         }
@@ -118,55 +123,55 @@ export const content = {
     {
       title: {
         en: "UI/UX Designer",
-        fr: "Designer UI/UX"
+        ru: "UI/UX Дизайнер"
       },
       company: {
         en: "Creative Solutions",
-        fr: "Solutions Créatives"
+        ru: "Creative Solutions"
       },
       period: {
         en: "Jun 2016 - Feb 2018",
-        fr: "Juin 2016 - Fév 2018"
+        ru: "Июн 2016 - Фев 2018"
       },
       logo: "/placeholder.svg",
       description: {
         en: "Designed user interfaces for web and mobile applications across various industries. Conducted user research and usability testing to validate design decisions.",
-        fr: "Conception d'interfaces utilisateur pour des applications web et mobiles dans diverses industries. A mené des recherches sur les utilisateurs et des tests d'utilisabilité pour valider les décisions de conception."
+        ru: "Разрабатывал пользовательские интерфейсы для веб- и мобильных приложений в различных отраслях. Проводил исследования пользователей и тестирование удобства использования для проверки дизайнерских решений."
       },
       projects: [
         {
           title: {
             en: "E-commerce Redesign",
-            fr: "Refonte E-commerce"
+            ru: "Редизайн E-commerce"
           },
           description: {
             en: "Complete overhaul of an e-commerce platform resulting in 28% increase in conversion rate and 42% decrease in cart abandonment. Implemented a new checkout flow and improved product discovery.",
-            fr: "Refonte complète d'une plateforme e-commerce entraînant une augmentation de 28 % du taux de conversion et une diminution de 42 % de l'abandon du panier. Mise en œuvre d'un nouveau flux de paiement et amélioration de la découverte de produits."
+            ru: "Полная переработка платформы электронной коммерции, что привело к увеличению коэффициента конверсии на 28% и снижению показателя отказа от корзины на 42%. Внедрил новый процесс оформления заказа и улучшил обнаружение продуктов."
           },
           media: {
             type: "image",
             url: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&q=80&w=2500",
             alt: {
               en: "E-commerce interface on laptop",
-              fr: "Interface e-commerce sur ordinateur portable"
+              ru: "Интерфейс электронной коммерции на ноутбуке"
             }
           }
         },
         {
           title: {
             en: "Travel Booking App",
-            fr: "Application de Réservation de Voyage"
+            ru: "Приложение для Бронирования Путешествий"
           },
           description: {
             en: "Designed a mobile app for booking travel experiences, focusing on creating an immersive and inspiring interface while maintaining ease of use for booking functionality.",
-            fr: "Conception d'une application mobile pour réserver des expériences de voyage, en se concentrant sur la création d'une interface immersive et inspirante tout en maintenant la facilité d'utilisation pour la fonctionnalité de réservation."
+            ru: "Спроектировал мобильное приложение для бронирования путешествий, сосредоточившись на создании иммерсивного и вдохновляющего интерфейса при сохранении простоты использования функций бронирования."
           },
           media: {
             type: "image",
             url: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7?auto=format&fit=crop&q=80&w=2500",
             alt: {
               en: "Travel app interface showing destination browsing",
-              fr: "Interface d'application de voyage montrant la navigation des destinations"
+              ru: "Интерфейс приложения для путешествий, показывающий просмотр направлений"
             }
           }
         }
@@ -176,19 +181,29 @@ export const content = {
   ui: {
     showProjects: {
       en: "Show Projects",
-      fr: "Afficher les Projets"
+      ru: "Показать Проекты"
     },
     hideProjects: {
       en: "Hide Projects",
-      fr: "Masquer les Projets"
+      ru: "Скрыть Проекты"
     },
     viewImage: {
       en: "View Full Size",
-      fr: "Voir Taille Réelle"
+      ru: "Просмотреть в полном размере"
     },
     close: {
       en: "Close",
-      fr: "Fermer"
+      ru: "Закрыть"
+    },
+    contact: {
+      email: {
+        en: "Email",
+        ru: "Эл. почта"
+      },
+      telegram: {
+        en: "Telegram",
+        ru: "Телеграм"
+      }
     }
   }
 };

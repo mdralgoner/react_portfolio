@@ -26,6 +26,9 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
     setIsFullScreen(false);
     document.body.style.overflow = '';
   };
+
+  // Get the description with potentially embedded HTML
+  const descriptionHtml = t(`experience.${experienceIndex}.projects.${projectIndex}.description`);
   
   return (
     <>
@@ -35,9 +38,10 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
             <h4 className="text-lg font-medium mb-2">
               {t(`experience.${experienceIndex}.projects.${projectIndex}.title`)}
             </h4>
-            <p className="text-muted-foreground text-sm text-balance">
-              {t(`experience.${experienceIndex}.projects.${projectIndex}.description`)}
-            </p>
+            <p 
+              className="text-muted-foreground text-sm text-balance"
+              dangerouslySetInnerHTML={{ __html: descriptionHtml }}
+            ></p>
           </div>
           
           <div className="md:w-1/2">
