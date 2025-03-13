@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { useLanguage } from '../contexts/LanguageContext';
 import { ChevronDown, ChevronUp } from 'lucide-react';
@@ -23,26 +22,46 @@ const ExperienceItem: React.FC<ExperienceItemProps> = ({ experience, index }) =>
     >
       <div className="bg-card rounded-xl p-6 border border-border shadow-sm transition-all duration-300 hover:shadow-md">
         <div className="flex items-start gap-4">
-          <div className="w-12 h-12 rounded-md bg-secondary/50 overflow-hidden flex items-center justify-center flex-shrink-0">
-            <img 
-              src={experience.logo} 
-              alt={t(`experience.${index}.company`)} 
-              className="w-8 h-8 object-contain" 
-              loading="lazy"
-            />
+          <div className="w-12 h-12 rounded-md overflow-hidden flex items-center justify-center flex-shrink-0">
+            {experience.website ? (
+              <a 
+                href={experience.website} 
+                target="_blank" 
+                rel="noopener noreferrer"
+                aria-label={`Visit ${t(`experience.${index}.company`)} website`}
+                className="flex items-center justify-center w-full h-full"
+              >
+                <img 
+                  src={experience.logo} 
+                  alt={t(`experience.${index}.company`)} 
+                  className="w-full h-full object-cover" 
+                  loading="lazy"
+                />
+              </a>
+            ) : (
+              <img 
+                src={experience.logo} 
+                alt={t(`experience.${index}.company`)} 
+                className="w-full h-full object-cover" 
+                loading="lazy"
+              />
+            )}
           </div>
           
           <div className="flex-1">
-            <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 mb-3">
-              <h3 className="text-xl font-semibold">{t(`experience.${index}.title`)}</h3>
-              <span className="text-sm text-muted-foreground">{t(`experience.${index}.period`)}</span>
+            <div className="flex flex-col">
+              <h2 className="text-xl font-semibold">
+                {t(`experience.${index}.company`)}
+              </h2>
+              <h3 className="text-base font-medium text-muted-foreground">
+                {t(`experience.${index}.title`)}
+              </h3>
+              <p className="text-sm text-muted-foreground mt-1">
+                {t(`experience.${index}.period`)}
+              </p>
             </div>
             
-            <div className="mb-4">
-              <span className="text-base font-medium">{t(`experience.${index}.company`)}</span>
-            </div>
-            
-            <p className="text-muted-foreground mb-4 text-balance">
+            <p className="mt-3 text-sm text-foreground/80">
               {t(`experience.${index}.description`)}
             </p>
             

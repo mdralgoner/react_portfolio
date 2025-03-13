@@ -19,7 +19,7 @@ const Header: React.FC = () => {
           <div className="mb-6 flex justify-center">
             <div className="w-28 h-28 rounded-full overflow-hidden border-4 border-primary/20 shadow-xl">
               <img 
-                src="/profile-photo.jpg" 
+                src="profile-photo.png" 
                 alt={t('header.name')} 
                 className="w-full h-full object-cover"
                 onError={(e) => {
