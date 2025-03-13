@@ -12,7 +12,7 @@ export const content = {
       en: "Experienced in building and optimizing digital products, leveraging data to drive decision-making and enhance user experiences. Passionate about educational technology and travel services.",
       ru: "Опытный специалист в создании и оптимизации цифровых продуктов, использующий данные для принятия решений и улучшения пользовательского опыта. Увлечен образовательными технологиями и туристическими сервисами."
     },
-    photo: "/profile-photo.png", // Will be added
+    photo: "/profile-photo.png", 
     contact: {
       email: "mars.shakirov@gmail.com",
       telegram: "Shakirov_Mars"
@@ -38,19 +38,27 @@ export const content = {
       },
       logo: "/wow_logo.png",
       website: 'https://wowtickets.com',
-      description: {
-        en: "Developed data-driven solutions for travel services, optimizing flight booking processes and pricing models. Led A/B testing initiatives to improve conversion rates.",
-        ru: "Разрабатывал решения на основе данных для туристических сервисов, оптимизируя процессы бронирования авиабилетов и ценовые модели. Руководил A/B-тестированием для повышения конверсии."
-      },
+        "description": {
+          "en": `I started in a fast-growing startup focused on the India and UAE markets, taking on a wide scope of responsibilities from the beginning. Initially, I was responsible for working with external content providers, overseeing the entire process from contract signing to ticket sales. During this time, we successfully integrated seven providers, often requiring custom technical solutions. I also managed communication with acquisition channels like Skyscanner and Wego, as well as payment providers such as Stripe and Trust.
+          Throughout my work, we continuously managed content and search settings, which required ongoing analysis of acquisition metrics and conversion rates.  
+      
+          Later, my primary focus shifted to monetizing content and additional services. I developed, analyzed, and implemented projects to increase revenue, including fraud protection mechanisms. Additionally, I optimized operational processes by automating accounting reports, creating support tools, and setting up alerts to prevent financial losses and detect order processing errors.`,
+          
+          "ru": `Я начал работу в интенсивно развивающемся стартапе, ориентированном на рынки Индии и ОАЭ, с самого начала взяв на себя широкую зону ответственности. Изначально я отвечал за работу с внешними поставщиками контента, контролируя процесс от подписания договора до продаж билетов. За это время мы интегрировали семь поставщиков, в ряде случаев разрабатывая оригинальные технические решения. Также я занимался коммуникацией с каналами привлечения, такими как Skyscanner и Wego, и платёжными провайдерами, такими как Stripe и Trust.  
+      
+          На протяжении всей работы мы управляли настройками контента и поиска, что требовало постоянного анализа метрик привлечения и конверсий.  
+      
+          Позже моя основная работа сосредоточилась на монетизации контента и дополнительных услуг. Я разрабатывал, анализировал и внедрял проекты по увеличению дохода, включая защиту от мошенничества. Помимо этого, я оптимизировал операционные процессы, автоматизируя бухгалтерскую отчётность, создавая инструменты для поддержки клиентов и настраивая алерты для предотвращения убытков и отслеживания ошибок при обработке заказов.`
+      },      
       projects: [
         {
-          title: {
-            en: "Dynamic Pricing Optimization",
-            ru: "Редизайн Финансовой Панели"
+          "title": {
+            "en": "Monetization of Unique Content",
+            "ru": "Монетизация уникального контента"
           },
-          description: {
-            en: "Completely overhauled a complex financial dashboard used by over 2,000 financial analysts daily. Reduced task completion time by 35% and increased user satisfaction scores by 52%. Check out the <a href='https://example.com/case-study' target='_blank' class='text-primary underline hover:text-primary/80'>detailed case study</a>.",
-            ru: "Полностью переработал сложную финансовую панель, используемую более чем 2000 финансовыми аналитиками ежедневно. Сократил время выполнения задач на 35% и повысил показатели удовлетворенности пользователей на 52%. Ознакомьтесь с <a href='https://example.com/case-study' target='_blank' class='text-primary underline hover:text-primary/80'>подробным разбором кейса</a>."
+          "description": {
+            "en": "I worked on projects to monetize unique content, which we called 'Combinations.' Content providers could only offer what airlines supplied, but by predicting market demand, we created custom flight pairings and sold them at a margin 2-3 times higher than regular content. Over time, I developed and launched three different systems for generating such content, which led to 15% of total sales coming from combined flights.",
+            "ru": "Я занимался проектами по монетизации уникального контента, которые мы называли 'Комбинации'. Поставщики контента были ограничены предложениями авиакомпаний, но, предсказывая спрос, мы создавали собственные сочетания рейсов и продавали их с маржой в 2-3 раза выше, чем у обычного контента. Со временем я разработал и внедрил три системы генерации такого контента, благодаря чему 15% всех продаж приходилось на комбинированные перелёты."
           },
           media: {
             type: "image",
@@ -61,15 +69,25 @@ export const content = {
             }
           }
         },
-        {
-          title: {
-            en: "Mobile Banking App",
-            ru: "Мобильное Банковское Приложение"
-          },
-          description: {
-            en: "Designed and launched a new banking app focused on millennial users. Features included personalized insights, goal-based savings, and simplified investment options.",
-            ru: "Разработал и запустил новое банковское приложение, ориентированное на пользователей-миллениалов. Функции включали персонализированные аналитические данные, накопления на основе целей и упрощенные варианты инвестирования."
-          },
+          {
+            "title": {
+              "en": "Improving Bookability",
+              "ru": "Улучшение Bookability"
+            },
+            "description": {
+              "en": `One of the main challenges in TravelTech is bookability – ensuring that a ticket or service is booked at the same price as originally shown during the search. This issue primarily depends on content providers and is traditionally considered fundamentally unsolvable.  
+          
+              We delved into the root causes of this problem and developed a system that allowed us to search for alternative options from different providers before the actual booking process began. We also learned to prioritize providers at the content display stage by analyzing the bookability of their offerings.  
+          
+              As a result, we not only improved bookability but also generated approximately 5% of total revenue from this optimization.`,
+              
+              "ru": `Одна из основных проблем в TravelTech — bookability, то есть успешность бронирования, подразумевающая, что билет или услуга бронируются по той же цене, что была доступна при изначальном поиске. Эта проблема главным образом зависит от поставщиков контента и традиционно считается фундаментально неразрешимой.  
+          
+              Мы детально изучили корни этой проблемы и разработали систему, которая позволяла искать альтернативные варианты у разных поставщиков ещё до начала реального бронирования. Также мы научились приоритизировать поставщиков на этапе показа контента, анализируя успешность их бронирования.  
+          
+              В результате мы не только улучшили bookability, но и смогли получать дополнительно около 5% от общего дохода благодаря этой оптимизации.`
+            },
+          
           media: {
             type: "image",
             url: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&q=80&w=2500",
@@ -78,7 +96,35 @@ export const content = {
               ru: "Интерфейс мобильного банковского приложения"
             }
           }
+        },
+        {
+          "title": {
+            "en": "Optimizing Search Response Time with Smart Caching",
+            "ru": "Оптимизация времени ответа в поиске с помощью умного кеширования"
+          },
+          "description": {
+            "en": `When returning search results, it is crucial not only to provide the best price but also to respond as quickly as possible. We analyzed our response times and session conversion rates and identified the optimal response time window to capture the user's attention before they switched to a competitor.  
+        
+            Since we operated between the content provider and the user, we couldn't directly control how fast responses were delivered. To address this, we developed a caching system with different storage durations based on content type and time remaining until departure.  
+        
+            This system reduced the share of timeouts from 5-6% to less than 1%, while maintaining only a slightly lower bookability rate. We also integrated caching into our combination logic, ensuring that 99% of all combinations in search results used cached data. Additionally, we reduced overall search load by 40% and improved system stability during peak traffic periods.`,
+            
+            "ru": `При отправке результатов поискового запроса важно не только предлагать лучшую цену, но и делать это как можно быстрее. Мы проанализировали скорость ответа и конверсию в сессиях, определив оптимальное время, в которое мы должны успеть показать клиенту наше предложение, пока он не ушёл к конкуренту.  
+        
+            Мы находились между поставщиком контента и пользователем, поэтому не могли напрямую контролировать скорость отдачи ответа. Для решения этой проблемы мы разработали систему кеширования с разной длительностью хранения, в зависимости от типа контента и времени до вылета.  
+        
+            Эта система сократила долю таймаутов с 5-6% до менее 1%, при этом bookability этого контента снизился незначительно. Мы также научились активно использовать этот кеш для комбинированных перелётов и добились того, что 99% комбинаций в поиске строились на основе кешированных данных. Вдобавок, нам удалось снизить общую нагрузку на поиск на 40% и повысить надёжность системы в периоды пиковых нагрузок.`
+          },
+        
+        media: {
+          type: "image",
+          url: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&q=80&w=2500",
+          alt: {
+            en: "Mobile banking application interface",
+            ru: "Интерфейс мобильного банковского приложения"
+          }
         }
+      }
       ]
     },
     {
