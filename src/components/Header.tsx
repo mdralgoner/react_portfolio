@@ -1,8 +1,7 @@
-
 import React from 'react';
 import { useLanguage } from '../contexts/LanguageContext';
 import LanguageSwitcher from './LanguageSwitcher';
-import { Mail, Send } from 'lucide-react';
+import { Mail, Send, FileText } from 'lucide-react';
 import { content } from '../data/content';
 
 const Header: React.FC = () => {
@@ -56,6 +55,16 @@ const Header: React.FC = () => {
             >
               <Send className="w-4 h-4 text-primary" />
               <span>{t('ui.contact.telegram')}</span>
+            </a>
+            <a 
+              href="/shakirov_cv.pdf"
+              target="_blank"
+              rel="noopener noreferrer" 
+              className="flex items-center gap-1.5 px-3 py-1.5 rounded-md text-sm font-medium hover:bg-accent transition-colors"
+              aria-label={t('ui.contact.cv')}
+            >
+              <FileText className="w-4 h-4 text-primary" />
+              <span>{t('ui.contact.cv')}</span>
             </a>
           </div>
           

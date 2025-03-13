@@ -438,6 +438,10 @@ export const content = {
       telegram: {
         en: "Telegram",
         ru: "Телеграм"
+      },
+      cv: {
+        en: "View CV",
+        ru: "Открыть CV"
       }
     }
   }
