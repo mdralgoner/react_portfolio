@@ -42,13 +42,13 @@ export const content = {
           "en": `I started in a fast-growing startup focused on the India and UAE markets, taking on a wide scope of responsibilities from the beginning. Initially, I was responsible for working with external content providers, overseeing the entire process from contract signing to ticket sales. During this time, we successfully integrated seven providers, often requiring custom technical solutions. I also managed communication with acquisition channels like Skyscanner and Wego, as well as payment providers such as Stripe and Trust.
           Throughout my work, we continuously managed content and search settings, which required ongoing analysis of acquisition metrics and conversion rates.  
       
-          Later, my primary focus shifted to monetizing content and additional services. I developed, analyzed, and implemented projects to increase revenue, including fraud protection mechanisms. Additionally, I optimized operational processes by automating accounting reports, creating support tools, and setting up alerts to prevent financial losses and detect order processing errors.`,
+          </p><p> Later, my primary focus shifted to monetizing content and additional services. I developed, analyzed, and implemented projects to increase revenue, including fraud protection mechanisms. Additionally, I optimized operational processes by automating accounting reports, creating support tools, and setting up alerts to prevent financial losses and detect order processing errors.`,
           
           "ru": `Я начал работу в интенсивно развивающемся стартапе, ориентированном на рынки Индии и ОАЭ, с самого начала взяв на себя широкую зону ответственности. Изначально я отвечал за работу с внешними поставщиками контента, контролируя процесс от подписания договора до продаж билетов. За это время мы интегрировали семь поставщиков, в ряде случаев разрабатывая оригинальные технические решения. Также я занимался коммуникацией с каналами привлечения, такими как Skyscanner и Wego, и платёжными провайдерами, такими как Stripe и Trust.  
       
           На протяжении всей работы мы управляли настройками контента и поиска, что требовало постоянного анализа метрик привлечения и конверсий.  
       
-          Позже моя основная работа сосредоточилась на монетизации контента и дополнительных услуг. Я разрабатывал, анализировал и внедрял проекты по увеличению дохода, включая защиту от мошенничества. Помимо этого, я оптимизировал операционные процессы, автоматизируя бухгалтерскую отчётность, создавая инструменты для поддержки клиентов и настраивая алерты для предотвращения убытков и отслеживания ошибок при обработке заказов.`
+          </p><p> Позже моя основная работа сосредоточилась на монетизации контента и дополнительных услуг. Я разрабатывал, анализировал и внедрял проекты по увеличению дохода, включая защиту от мошенничества. Помимо этого, я оптимизировал операционные процессы, автоматизируя бухгалтерскую отчётность, создавая инструменты для поддержки клиентов и настраивая алерты для предотвращения убытков и отслеживания ошибок при обработке заказов.`
       },      
       projects: [
         {
@@ -142,19 +142,33 @@ export const content = {
       },
       logo: "/mego_logo.png",
       website: 'https://mego.travel/',
-      description: {
-        en: "Responsible for end-to-end product design for a SaaS analytics platform. Collaborated closely with engineering and product management to deliver seamless user experiences.",
-        ru: "Отвечал за комплексный дизайн продукта для аналитической платформы SaaS. Тесно сотрудничал с инженерией и управлением продуктами для обеспечения безупречного пользовательского опыта."
+      "description": {
+        "en": `I worked in a product sub-team focused on expanding into international markets, specifically Brazil, the UAE, and India.  
+    
+        My responsibilities included optimizing operational processes, generating analytical reports, and managing pricing settings. Knowing that the international team would eventually become a separate company, I spent several months rotating through different teams (Search, UI, and Growth) to gain a broader skill set for future work.`,
+        
+        "ru": `Я работал в продуктовой подкоманде, которая занималась выходом на международные рынки, в частности в Бразилии, ОАЭ и Индии.  
+    
+        Я занимался оптимизацией операционных процессов, подготовкой аналитических отчётов и настройками ценообразования. Понимая, что в будущем международная команда станет отдельной компанией, я в течение нескольких месяцев проходил мини-стажировки в разных командах (поиск, UI, рост), чтобы получить как можно больше компетенций для дальнейшей работы.`
       },
       projects: [
         {
-          title: {
-            en: "Analytics Dashboard",
-            ru: "Аналитическая Панель"
+          "title": {
+            "en": "Optimization of Foreign Supplier Balance Replenishment",
+            "ru": "Оптимизация пополнения валютного баланса иностранных поставщиков"
           },
-          description: {
-            en: "Created a real-time analytics dashboard that processed over 1 million data points daily. Implemented innovative visualization techniques to make complex data accessible. Watch our <a href='https://www.youtube.com/watch?v=dQw4w9WgXcQ&t=25s' target='_blank' class='text-primary underline hover:text-primary/80'>tutorial video</a> starting at 0:25.",
-            ru: "Создал панель аналитики в реальном времени, которая обрабатывает более 1 миллиона точек данных ежедневно. Внедрил инновационные методы визуализации, чтобы сделать сложные данные доступными. Посмотрите наше <a href='https://www.youtube.com/watch?v=dQw4w9WgXcQ&t=25s' target='_blank' class='text-primary underline hover:text-primary/80'>обучающее видео</a>, начиная с 0:25."
+          "description": {
+            "en": `One of the few independent projects I had the opportunity to implement in this company was optimizing the process of replenishing foreign suppliers' currency balances.  
+        
+            Despite external circumstances, we had many suppliers requiring payments in foreign currencies at the time. Transactions were slow and unreliable, exchange rates fluctuated, and we needed a process that ensured uninterrupted ticket sales while minimizing currency exchange losses.  
+        
+            First, I analyzed the specifics of currency transactions and identified areas for streamlining the process. As a result, we developed a semi-automated system where finance teams received reports with recommended replenishment amounts based on current sales levels, allowing them to make informed balance top-ups.`,
+            
+            "ru": `Один из немногих самостоятельных проектов, который мне довелось воплотить в жизнь в этой компании, — это оптимизация процесса пополнения валютного баланса иностранных поставщиков.  
+        
+            Несмотря на внешние обстоятельства, в тот момент у нас было много поставщиков, с которыми требовалось рассчитываться в иностранной валюте. Переводы были медленными и ненадёжными, курс валюты колебался, и нам нужно было разработать процесс, который позволял бы непрерывно продавать билеты и минимизировать издержки на валютные операции.  
+        
+            Сначала я разобрался во всех особенностях валютных расчётов и нашёл точки для упрощения этих процедур. В результате мы создали полуавтоматическую систему, в которой финансисты получали отчёт с рекомендованными суммами пополнения на основе текущего уровня продаж и использовали его для своевременного пополнения баланса.`
           },
           media: {
             type: "image",

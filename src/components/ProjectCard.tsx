@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { useLanguage } from '../contexts/LanguageContext';
 import { Maximize2, X } from 'lucide-react';
@@ -32,50 +31,52 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
   
   return (
     <>
-      <div className="bg-secondary/30 rounded-lg p-4 sm:p-6 overflow-hidden relative">
-        <div className="flex flex-col md:flex-row gap-6">
-          <div className="md:w-1/2">
-            <h4 className="text-lg font-medium mb-2">
+      <div className="bg-card rounded-lg p-6 border border-border">
+        <div className="flex flex-col md:flex-row md:items-center gap-6">
+          <div className="flex-1">
+            <h4 className="text-lg font-semibold mb-2">
               {t(`experience.${experienceIndex}.projects.${projectIndex}.title`)}
             </h4>
             <p 
-              className="text-muted-foreground text-sm text-balance"
+              className="text-sm text-muted-foreground"
               dangerouslySetInnerHTML={{ __html: descriptionHtml }}
             ></p>
           </div>
           
-          <div className="md:w-1/2">
-            {project.media.type === 'image' && (
-              <div className="relative aspect-video rounded-md overflow-hidden bg-background">
-                <img
-                  src={project.media.url}
-                  alt={t(`experience.${experienceIndex}.projects.${projectIndex}.media.alt`)}
-                  className="w-full h-full object-cover transition-transform duration-1000 hover:scale-105"
-                  loading="lazy"
-                />
-                <button
-                  onClick={handleOpenFullScreen}
-                  className="absolute bottom-3 right-3 p-2 bg-background/80 backdrop-blur-sm rounded-full shadow-sm opacity-70 hover:opacity-100 transition-opacity"
-                  aria-label={t('ui.viewImage')}
-                >
-                  <Maximize2 className="w-4 h-4" />
-                </button>
-              </div>
-            )}
-            
-            {project.media.type === 'video' && (
-              <div className="aspect-video rounded-md overflow-hidden bg-background">
-                <video
-                  controls
-                  className="w-full h-full object-cover"
-                  poster={project.media.poster}
-                >
-                  <source src={project.media.url} type="video/mp4" />
-                  Your browser does not support the video tag.
-                </video>
-              </div>
-            )}
-          </div>
+          {project.media && (
+            <div className="md:w-1/3 flex-shrink-0 flex items-center justify-center">
+              {project.media.type === 'image' && (
+                <div className="relative aspect-video rounded-md overflow-hidden bg-background">
+                  <img
+                    src={project.media.url}
+                    alt={t(`experience.${experienceIndex}.projects.${projectIndex}.media.alt`)}
+                    className="w-full h-full object-cover transition-transform duration-1000 hover:scale-105"
+                    loading="lazy"
+                  />
+                  <button
+                    onClick={handleOpenFullScreen}
+                    className="absolute bottom-3 right-3 p-2 bg-background/80 backdrop-blur-sm rounded-full shadow-sm opacity-70 hover:opacity-100 transition-opacity"
+                    aria-label={t('ui.viewImage')}
+                  >
+                    <Maximize2 className="w-4 h-4" />
+                  </button>
+                </div>
+              )}
+              
+              {project.media.type === 'video' && (
+                <div className="aspect-video rounded-md overflow-hidden bg-background">
+                  <video
+                    controls
+                    className="w-full h-full object-cover"
+                    poster={project.media.poster}
+                  >
+                    <source src={project.media.url} type="video/mp4" />
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
+              )}
+            </div>
+          )}
         </div>
       </div>
       

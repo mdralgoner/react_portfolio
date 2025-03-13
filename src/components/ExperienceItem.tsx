@@ -61,10 +61,11 @@ const ExperienceItem: React.FC<ExperienceItemProps> = ({ experience, index }) =>
               </p>
             </div>
             
-            <p className="mt-3 text-sm text-foreground/80">
-              {t(`experience.${index}.description`)}
-            </p>
-            
+            <p 
+              className="mt-3 text-sm text-foreground/80"
+              dangerouslySetInnerHTML={{ __html: t(`experience.${index}.description`) }}
+            />
+
             {experience.projects && experience.projects.length > 0 && (
               <button
                 onClick={() => setShowProjects(!showProjects)}
