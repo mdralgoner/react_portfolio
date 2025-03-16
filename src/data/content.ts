@@ -396,18 +396,30 @@ export const content = {
       logo: "/kfu_logo.png",
       website: 'https://kpfu.ru/',
       description: {
-        en: "Designed user interfaces for web and mobile applications across various industries. Conducted user research and usability testing to validate design decisions.",
-        ru: "Разрабатывал пользовательские интерфейсы для веб- и мобильных приложений в различных отраслях. Проводил исследования пользователей и тестирование удобства использования для проверки дизайнерских решений."
+        "en": `For a long time, I studied, taught, and conducted research in theoretical physics. I wrote scientific articles, presented at conferences, and participated in research internships.  
+                </p><p> My primary interest was in <strong>computer simulation methods</strong> for various physical processes, ranging from the chaotic dynamics of material bodies to the quantum mechanics governing optical excitation propagation.  
+                </p><p> During this period, I actively studied <strong>Matlab</strong> and <strong>Python</strong>, applying my knowledge of <strong>Linux</strong> and <strong>LaTeX</strong> in my research work.`,
+        
+        "ru": `Я долгое время учился, преподавал и занимался наукой в области <strong>теоретической физики</strong>. Писал научные статьи, выступал на конференциях и проходил стажировки.  
+                </p><p> Основной мой интерес был связан с <strong>методами компьютерного моделирования</strong> различных физических процессов — от хаотической динамики материальных тел до квантовой механики, стоящей за распространением оптического возбуждения.  
+                </p><p> В этот период я активно изучал <strong>Matlab</strong> и <strong>Python</strong>, а также применял в работе знания <strong>Linux</strong> и <strong>LaTeX</strong>.`
       },
       projects: [
         {
           title: {
-            en: "E-commerce Redesign",
-            ru: "Редизайн E-commerce"
+            "en": "Internship at the University of Bayreuth",
+            "ru": "Стажировка в университете города Bayreuth"
           },
-          description: {
-            en: "Complete overhaul of an e-commerce platform resulting in 28% increase in conversion rate and 42% decrease in cart abandonment. Implemented a new checkout flow and improved product discovery.",
-            ru: "Полная переработка платформы электронной коммерции, что привело к увеличению коэффициента конверсии на 28% и снижению показателя отказа от корзины на 42%. Внедрил новый процесс оформления заказа и улучшил обнаружение продуктов."
+          "description": {
+            "en": `In January 2019, I personally arranged an internship with a professor at the <strong>University of Bayreuth</strong> to work on molecular dynamics simulations.  
+                    </p><p> As a result, I had an excellent summer, met wonderful people, and ultimately realized that even abroad, a career in science remains a highly niche trajectory.  
+                    </p><p><strong>Related Materials:</strong></p>  
+                    <p><a href="https://www.gekle.physik.uni-bayreuth.de/en/team/" target="_blank">🌍 University of Bayreuth – Visitors List</a></p>`,
+            
+            "ru": `В январе 2019 года я самостоятельно договорился с профессором из <strong>университета города Bayreuth</strong> о прохождении стажировки по моделированию молекулярной динамики.  
+                    </p><p> В итоге я провёл замечательное лето, познакомился с прекрасными людьми и окончательно убедился, что даже за рубежом наука остаётся весьма нишевой карьерной траекторией.  
+                    </p><p><strong>Связанные материалы:</strong></p>  
+                    <p><a href="https://www.gekle.physik.uni-bayreuth.de/en/team/" target="_blank">🌍 Университет Bayreuth – Список гостей</a></p>`
           },
           media: {
             type: "image",
@@ -420,12 +432,23 @@ export const content = {
         },
         {
           title: {
-            en: "Travel Booking App",
-            ru: "Приложение для Бронирования Путешествий"
+            "en": "Authoring University Courses",
+            "ru": "Разработка авторских курсов в университете"
           },
           description: {
-            en: "Designed a mobile app for booking travel experiences, focusing on creating an immersive and inspiring interface while maintaining ease of use for booking functionality.",
-            ru: "Спроектировал мобильное приложение для бронирования путешествий, сосредоточившись на создании иммерсивного и вдохновляющего интерфейса при сохранении простоты использования функций бронирования."
+            "en": `From the moment I joined the Department of Theoretical Physics, I expressed my desire to change the approach to the <strong>"Modeling and Visualization in Physics"</strong> course.  
+                    </p><p> First, together with the primary course author, we revised the problem-solving guide, where I contributed my own problems and attempted to reflect my vision of what students should take away from the course.  
+                    </p><p> Later, I fully modernized the course, integrating <strong>Python programming</strong>, <strong>LaTeX formatting</strong>, and practical exercises on <strong>molecular dynamics simulations</strong> and <strong>optical spectrum calculations</strong>. Unfortunately, this updated version of the course was not formally documented in official study materials.  
+                    </p><p><strong>Related Materials:</strong></p>  
+                    <p><a href="https://kpfu.ru/portal/docs/F1367493855/Tochechnye.otobrazheniya.pdf" target="_blank">📖 Published structured guide used in the "Modeling and Visualization in Physics" course.</p>  
+                    <p><a href="https://youtube.com/playlist?list=PLmCLVWoa79_URDW9RRiOwVrL_knw8C7XL&si=OTClCme5_exLc-Yv" target="_blank">🎥 LaTeX Course for Students</a>: A video tutorial series recorded during the pandemic.</p>`,
+            
+            "ru": `С момента прихода на кафедру теоретической физики я предложил изменить подход к изучению курса <strong>"Моделирование и визуализация в физике"</strong>.  
+                    </p><p> В первую очередь, совместно с основным автором курса, мы переработали учебное пособие, куда я добавил авторские задачи и постарался выразить своё видение того, что студенты должны извлечь из прохождения курса.  
+                    </p><p> Затем я полностью обновил курс, добавив в него <strong>программирование на Python</strong>, <strong>оформление работ в LaTeX</strong> и задания по <strong>моделированию молекулярной динамики</strong> и <strong>расчёту оптических спектров</strong>. К сожалению, эта версия курса не была формализована в учебных пособиях.  
+                    </p><p><strong>Связанные материалы:</strong></p>  
+                    <p><a href="https://kpfu.ru/portal/docs/F1367493855/Tochechnye.otobrazheniya.pdf" target="_blank">📖 Опубликованное структурированное пособие, использовавшееся в курсе "Моделирование и визуализация в физике".</p>  
+                    <p><a href="https://youtube.com/playlist?list=PLmCLVWoa79_URDW9RRiOwVrL_knw8C7XL&si=OTClCme5_exLc-Yv" target="_blank">🎥 Курс LaTeX для студентов</a>: Видео-курс, записанный во время пандемии для студентов.</p>`
           },
           media: {
             type: "image",
@@ -453,18 +476,36 @@ export const content = {
       },
       logo: "/creator_logo.png",
       description: {
-        en: "Designed user interfaces for web and mobile applications across various industries. Conducted user research and usability testing to validate design decisions.",
-        ru: "Разрабатывал пользовательские интерфейсы для веб- и мобильных приложений в различных отраслях. Проводил исследования пользователей и тестирование удобства использования для проверки дизайнерских решений."
+        "en": `At the beginning of my career, I worked as a teacher and tutor, teaching students in various online and offline schools.  
+                </p><p> Most of my time was dedicated to preparing students for the <strong>Unified State Exam (ЕГЭ) in Physics</strong>. Additionally, I helped students solve olympiad-level problems in <strong>mathematics and physics</strong>.  
+                </p><p> For about three years, I was part of the <strong>collegium of physics olympiad problem creators</strong> for the All-Russian Olympiad.`,
+        
+        "ru": `В начале своей карьеры я работал преподавателем и репетитором, обучая школьников в различных онлайн и офлайн школах.  
+                </p><p> Большую часть времени я занимался подготовкой к <strong>ЕГЭ по физике</strong>, а также немного готовил учеников к решению <strong>олимпиадных задач по математике и физике</strong>.  
+                </p><p> Около трёх лет я входил в <strong>коллегию составителей олимпиадных задач</strong> по физике для Всероссийской олимпиады.`
       },
       projects: [
         {
           title: {
-            en: "E-commerce Redesign",
-            ru: "Редизайн E-commerce"
+            "en": "Educational Content Creation on  different platforms",
+            "ru": "Создание образовательного контента на платформах"
           },
           description: {
-            en: "Complete overhaul of an e-commerce platform resulting in 28% increase in conversion rate and 42% decrease in cart abandonment. Implemented a new checkout flow and improved product discovery.",
-            ru: "Полная переработка платформы электронной коммерции, что привело к увеличению коэффициента конверсии на 28% и снижению показателя отказа от корзины на 42%. Внедрил новый процесс оформления заказа и улучшил обнаружение продуктов."
+            "en": `I may not be an expert in content creation, but it so happened that I recorded a large number of educational and science-related videos.  
+                    </p><p> I designed a full physics course for <strong>grades 10 and 11</strong> and successfully sold it to an online school. Later, I continued making videos for my students on my <strong>YouTube channel</strong>. Some of these videos gained popularity, despite their modest production quality.  
+                    </p><p> One of the most unexpected successes was my <strong>TikTok channel</strong>, where several videos reached hundreds of thousands of views. While I didn't manage to monetize the audience effectively, the experience was certainly fascinating.  
+                    </p><p><strong>Related Materials:</strong></p>  
+                    <p><a href="https://youtube.com/playlist?list=PLRqVDT_WVZRkKOQFruLNC1v74_jTp6LzW&si=rrCPtVaTRWmWAdC0" target="_blank">📚 Physics Course for 10th Grade</a>.</p>  
+                    <p><a href="https://www.tiktok.com/@mars_phys" target="_blank">📱 TikTok Channel</a>: Short videos on physics and science.</p>  
+                    <p><a href="https://www.youtube.com/@marsshakirov4507" target="_blank">🎥 YouTube Channel</a>.</p>`,
+            
+            "ru": `Не уверен, что являюсь экспертом в создании контента, но так уж вышло, что я записал большое количество образовательных и около научных видеороликов.  
+                    </p><p> Я разработал полный курс по <strong>физике для 10 и 11 классов</strong> и успешно продал его одной из онлайн-школ. Позже я продолжил снимать видео для своих учеников на своём <strong>YouTube-канале</strong>. Некоторые ролики даже обрели популярность, несмотря на скромное качество записи.  
+                    </p><p> Одним из самых неожиданных успехов стал мой <strong>TikTok-канал</strong>, где многие видео набирали сотни тысяч просмотров. Хотя мне не удалось качественно монетизировать эту аудиторию, это был очень интересный опыт.  
+                    </p><p><strong>Связанные материалы:</strong></p>  
+                    <p><a href="https://youtube.com/playlist?list=PLRqVDT_WVZRkKOQFruLNC1v74_jTp6LzW&si=rrCPtVaTRWmWAdC0" target="_blank">📚 Курс по физике для 10-го класса</a>.</p>  
+                    <p><a href="https://www.tiktok.com/@mars_phys" target="_blank">📱 TikTok-канал</a>: Короткие ролики о физике и науке.</p>  
+                    <p><a href="https://www.youtube.com/@marsshakirov4507" target="_blank">🎥 YouTube-канал</a></p>`
           },
           media: {
             type: "image",
@@ -472,24 +513,6 @@ export const content = {
             alt: {
               en: "E-commerce interface on laptop",
               ru: "Интерфейс электронной коммерции на ноутбуке"
-            }
-          }
-        },
-        {
-          title: {
-            en: "Travel Booking App",
-            ru: "Приложение для Бронирования Путешествий"
-          },
-          description: {
-            en: "Designed a mobile app for booking travel experiences, focusing on creating an immersive and inspiring interface while maintaining ease of use for booking functionality.",
-            ru: "Спроектировал мобильное приложение для бронирования путешествий, сосредоточившись на создании иммерсивного и вдохновляющего интерфейса при сохранении простоты использования функций бронирования."
-          },
-          media: {
-            type: "image",
-            url: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7?auto=format&fit=crop&q=80&w=2500",
-            alt: {
-              en: "Travel app interface showing destination browsing",
-              ru: "Интерфейс приложения для путешествий, показывающий просмотр направлений"
             }
           }
         }
