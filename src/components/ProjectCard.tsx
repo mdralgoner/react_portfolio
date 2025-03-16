@@ -3,7 +3,19 @@ import { useLanguage } from '../contexts/LanguageContext';
 import { Maximize2, X } from 'lucide-react';
 
 interface ProjectCardProps {
-  project: any;
+  project: {
+    media?: {
+      type: 'image' | 'video';
+      url: string;
+      alt?: string;
+      poster?: string;
+    };
+    links?: Array<{
+      url: string;
+      label: string;
+      icon?: string;
+    }>;
+  };
   experienceIndex: number;
   projectIndex: number;
 }
@@ -37,10 +49,26 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
             <h4 className="text-lg font-semibold mb-2">
               {t(`experience.${experienceIndex}.projects.${projectIndex}.title`)}
             </h4>
-            <p 
+            <div 
               className="text-sm text-muted-foreground"
               dangerouslySetInnerHTML={{ __html: descriptionHtml }}
-            ></p>
+            />
+            
+            {project.links && project.links.length > 0 && (
+              <div className="mt-4 flex flex-wrap gap-2">
+                {project.links.map((link, index) => (
+                  <a
+                    key={index}
+                    href={link.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-1.5 text-xs px-3 py-1 rounded-full bg-primary/10 text-primary hover:bg-primary/20 transition-colors"
+                  >
+                    {link.label}
+                  </a>
+                ))}
+              </div>
+            )}
           </div>
           
           {project.media && (

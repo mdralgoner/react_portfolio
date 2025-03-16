@@ -191,24 +191,50 @@ export const content = {
         ru: "Умскул"
       },
       period: {
-        en: "Jun 2016 - Feb 2018",
-        ru: "Июн 2016 - Фев 2018"
+        en: "Jun 2021 - Present",
+        ru: "Июн 2021 - Настоящее время"
       },
       logo: "/umschool_logo.png",
       website: 'https://umschool.net/',
-      description: {
-        en: "Designed user interfaces for web and mobile applications across various industries. Conducted user research and usability testing to validate design decisions.",
-        ru: "Разрабатывал пользовательские интерфейсы для веб- и мобильных приложений в различных отраслях. Проводил исследования пользователей и тестирование удобства использования для проверки дизайнерских решений."
+      "description": {
+        "en": `I joined the company with the goal of developing a new feature for the product—an assessment of students' knowledge across all topics, regardless of the subject.  
+            </p><p> Alongside this, I was assigned to lead the content creation department. After successfully completing this task, I continued working on new features related to knowledge assessment, restructuring homework assignments, and predicting student outcomes.  
+            </p><p> Over time, I transitioned to more business-oriented tasks: calculating unit economics and building analytical reports for executives. This gradually evolved into the creation of an analytics department, which I took the lead in.  
+            </p><p> Within this department, we focused on unifying metric calculation methods across product, finance, and marketing teams. As we grew, we established the first ETL processes and a notification system.  
+            </p><p> In the final stage of my time at the company, I handed over analytics leadership and shifted my focus to Data Engineering. I integrated various external data sources, designed a data warehouse, and contributed to building the company's analytical infrastructure.`,
+        
+        "ru": `Я присоединился к компании с целью создать новую фичу в продукте — оценку знаний учеников по всем темам, вне зависимости от предмета.  
+            </p><p> Попутно с этим мне поручили руководить отделом создателей контента. После успешного выполнения этой задачи я продолжил заниматься разработкой новых фичей по оценке знаний, переработке структуры домашних работ и предсказанию результатов учеников.  
+            </p><p> Со временем я переключился на более бизнес-ориентированные задачи: расчёт юнит-экономики и построение аналитических отчётов для руководителей. Это постепенно переросло в создание аналитического отдела, которым я начал руководить.  
+            </p><p> В рамках отдела мы решали задачу унификации способов расчёта метрик для продуктового, финансового и маркетингового подразделений. По мере развития мы смогли построить первые ETL-процессы и систему уведомлений.  
+            </p><p> На завершающем этапе моей работы в компании я передал управление аналитикой и сосредоточился на задачах Дата Инженерии: подключал различные внешние источники данных, проектировал хранилище данных и участвовал в построении аналитической инфраструктуры.`
       },
       projects: [
         {
           title: {
-            en: "E-commerce Redesign",
-            ru: "Редизайн E-commerce"
+            "en": "Knowledge Assessment System for Students",
+            "ru": "Система оценки знаний учеников"
           },
           description: {
-            en: "Complete overhaul of an e-commerce platform resulting in 28% increase in conversion rate and 42% decrease in cart abandonment. Implemented a new checkout flow and improved product discovery.",
-            ru: "Полная переработка платформы электронной коммерции, что привело к увеличению коэффициента конверсии на 28% и снижению показателя отказа от корзины на 42%. Внедрил новый процесс оформления заказа и улучшил обнаружение продуктов."
+            "en": `I was tasked with designing a method to assess students' knowledge across various topics and sections of all subjects they studied.  
+                    </p><p> To achieve this, I chose to use the Bayesian Knowledge Tracing due to its relative simplicity and interpretability compared to Machine Learning/Deep Learning models.  
+                    </p><p> We divided all available topics into small subtopics, which we called "umits" Each task was designed to test a student's competence in specific umits. Depending on the task's outcome, the student's competence level would increase or decrease accordingly. An additional requirement for the project was to use only original tasks.  
+                    </p><p> As a result, I managed the hiring and workflow optimization of several dozen people who created and "labeled" these tasks. To facilitate the labeling process, I independently developed a web application for a more efficient workflow.  
+                    </p><p> By February 2022, we launched the project in a test mode, and from the new academic year (September 2022), it was fully implemented for all students. The idea behind this project was not so much to attract new users but to increase retention – students who had achieved significant knowledge progress would be less inclined to switch to competitors to avoid losing their progress.  
+                    </p><p> In practice, students with high engagement and performance already had a low churn rate. However, the new feature became a strong marketing tool, allowing us to attract a significant audience by branding it as a revolution in education under the name "UmSchool NEO".  
+                    </p><p><strong>Related Materials:</strong></p>  
+                    </p><p> <a href="https://tongyuzhou.com/bkt-explorable/" target="_blank"> 🔗 Explore BKT</a> 
+                    </p><p> <a href="https://umitation-programm.streamlit.app/" target="_blank"> 🔗 Umitation Program</a>`,
+            
+            "ru": `Мне предстояло придумать метод оценки знаний учеников по различным темам и разделам всех предметов, по которым они занимаются.  
+                    </p><p> Для этого я выбрал модель BKT (Bayesian Knowledge Tracing), так как она отличается сравнительной простотой и интерпретируемостью по сравнению с моделями машинного обучения и нейросетями.  
+                    </p><p> Мы разбили все темы на мелкие подтемы, которые назвали "умиты". Каждое задание проверяло компетенцию ученика по конкретным умитам, и в зависимости от результата решения уровень компетенции либо увеличивался, либо уменьшался. Дополнительным требованием было использование только оригинальных задач.  
+                    </p><p> В итоге я занимался наймом и оптимизацией работы нескольких десятков человек, которые создавали и разметивали эти задачи. Для удобства разметки я самостоятельно разработал веб-приложение, чтобы упростить процесс.  
+                    </p><p> В феврале 2022 года мы запустили проект в тестовом режиме, а уже с нового учебного года (сентябрь 2022) он работал для всех учеников. Основная идея проекта заключалась не столько в привлечении новых пользователей, сколько в удержании существующих – ученики, добившиеся высоких результатов, были менее склонны переходить к конкурентам, чтобы не потерять прогресс.  
+                    </p><p> На практике оказалось, что у активно занимающихся учеников и так был низкий churn-rate. Однако новая фича стала мощным маркетинговым инструментом, позволив привлечь значительную аудиторию, преподнеся это как революцию в образовательном процессе под названием "Умскул NEO."  
+                    </p><p><strong>Связанные материалы:</strong></p>  
+                    </p><p> <a href="https://tongyuzhou.com/bkt-explorable/" target="_blank"> 🔗Иллюстрация к алгоритму BKT</a> 
+                    </p><p> <a href="https://umitation-programm.streamlit.app/" target="_blank"> 🔗Программа для умитирования</a>`
           },
           media: {
             type: "image",
@@ -220,14 +246,77 @@ export const content = {
           }
         },
         {
-          title: {
-            en: "Travel Booking App",
-            ru: "Приложение для Бронирования Путешествий"
+          "title": {
+            "en": "Development of New Features for the Educational Product",
+            "ru": "Разработка новых фич для образовательного продукта"
           },
-          description: {
-            en: "Designed a mobile app for booking travel experiences, focusing on creating an immersive and inspiring interface while maintaining ease of use for booking functionality.",
-            ru: "Спроектировал мобильное приложение для бронирования путешествий, сосредоточившись на создании иммерсивного и вдохновляющего интерфейса при сохранении простоты использования функций бронирования."
+          "description": {
+            "en": `I worked on developing new features for the product. Many of them were adaptations of existing solutions from other educational platforms, but some were entirely original ideas.  
+                    </p><p> One such idea was <strong>"Rainbow of Success"</strong> – a system where students could continuously track their progress in a subject based on the number of completed tasks and their success rate. This progress was converted into two metrics: <strong>"diligence"</strong> and <strong>"quality"</strong>, visualized as a trajectory within a rainbow. The farther layers of the rainbow represented a higher probability of achieving top exam scores.  
+                    </p><p> Another feature I developed was a special type of homework called <strong>"Bubbles"</strong>. This system categorized all homework tasks into three difficulty levels. Depending on whether a student solved a task correctly, the next task would be either more challenging or easier. In the end, the system ensured that students only practiced tasks at their optimal level, creating a personalized learning experience.  
+                    </p><p> Unfortunately, these features remained at the idea and prototype stage and were never released into production. The main reason was that the development team was focused on a major redesign and solving more fundamental issues. Additionally, I lacked sufficient data to prove that these features would significantly improve key business metrics.  
+                    </p><p><strong>Related Materials:</strong></p>  
+                    <p><a href="ideas.pdf" target="_blank">📄 Presentation of Ideas</a></p>  
+                    <p><a href="Пузырьки 13 мая.html" target="_blank">🔗 Prototype of "Bubbles"</a></p>  
+                    <p><a href="Новая формула для оценки домашки.html" target="_blank">🔗 Research on the complexity of homework</a></p>  
+                    <p><a href="Универсальная_радуга_результата.html" target="_blank">📊 Analytical Basis for "Rainbow of Success"</a></p>`,
+            
+            "ru": `Я разрабатывал новые фичи для продукта. Многие из них были "калькой" с других образовательных продуктов, но были и абсолютно новые идеи.  
+                    </p><p> Одна из таких идей – <strong>"Радуга успеха"</strong>. Её суть заключалась в том, чтобы ученик непрерывно видел свой прогресс по предмету, основанный на количестве решённых задач и их успешности. Этот прогресс конвертировался в две условные единицы: <strong>"старательность"</strong> и <strong>"качество"</strong>, а траектория успеха отображалась внутри радуги. Более дальние слои радуги указывали на более высокую вероятность сдать экзамен на высокие баллы.  
+                    </p><p> Также я разработал особый формат домашнего задания, который назвал <strong>"Пузырьки"</strong>. Система делила все задачи на три уровня сложности, а в зависимости от того, решил ученик задачу или нет, следующая задача предлагалась либо сложнее, либо проще. В конечном итоге ученик должен был работать только с теми задачами, которые соответствовали его уровню понимания темы, что обеспечивало индивидуализированный подход.  
+                    </p><p> К сожалению, эти фичи так и остались на уровне идей и прототипов, не дойдя до продакшена. Основная причина – команда разработки была сосредоточена на глобальном переходе на новый дизайн и решении более фундаментальных задач. Кроме того, у меня не было достаточных данных, подтверждающих, что такие механики могли бы заметно улучшить ключевые экономические показатели.  
+                    </p><p><strong>Связанные материалы:</strong></p>  
+                    <p><a href="ideas.pdf" target="_blank">📄 Презентация идей</a></p>  
+                    <p><a href="Пузырьки 13 мая.html" target="_blank">🔗 Прототип "Пузырьков"</a></p>  
+                    <p><a href="Новая формула для оценки домашки.html" target="_blank">🔗Исследование на тему сложности домашек</a></p>  
+                    <p><a href="Универсальная_радуга_результата.html" target="_blank">📊 Аналитические предпосылки к "Радуге успеха"</a></p>`
           },
+          media: {
+            type: "image",
+            url: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7?auto=format&fit=crop&q=80&w=2500",
+            alt: {
+              en: "Travel app interface showing destination browsing",
+              ru: "Интерфейс приложения для путешествий, показывающий просмотр направлений"
+            }
+          }
+        },
+        {
+            title: {
+              "en": "Building an Analytical Culture in the Company",
+              "ru": "Формирование аналитической культуры в компании"
+            },
+            description: {
+              "en": `I led a major initiative to enhance the analytical culture within the company. When I joined, the company relied on fixed SQL scripts that generated reports at the press of a button, which employees then manually processed.  
+                      </p><p> Using only open-source and free services (<strong>Google Spreadsheets, Google Drive, and self-hosted Redash</strong>), I achieved several key improvements:  
+                      </p><ul>  
+                      <li>The product team gained access to standardized key economic indicators, ensuring that all stakeholders operated with the same numbers.</li>  
+                      <li>For the customer service department, we built a predictive model-based tool that identified users in the <strong>"red zone"</strong>—those at high risk of churn.</li>  
+                      <li>For the marketing team, we developed a targeted messaging tool that allowed them to segment users based on specific criteria and execute targeted campaigns.</li>  
+                      </ul>  
+                      <p> Later, this evolved into a more advanced infrastructure, incorporating an <strong>analytical data warehouse</strong> powered by <strong>ClickHouse</strong> and <strong>MongoDB</strong>, orchestrated with <strong>Airflow</strong>. I was actively involved in developing this solution and later took on its maintenance as a Data Engineer.  
+                      </p><p><strong>Related Materials:</strong></p>  
+                      <p><a href="Модель предсказания баллов.html" target="_blank">📊 Score Prediction Model</a></p>  
+                      <p><a href="Исследование оттока longate.html" target="_blank">🔍 Churn Analysis</a></p>  
+                      <p><a href="churn_report.html" target="_blank">📈 Iteration of the Churn Prediction Model</a></p>  
+                      <p><a href="marketing_report.html" target="_blank">📩 Marketing Report</a></p>
+                      <p><a href="ist_dashboard.png" target="_blank">📩 Dashboard for students based on our calculations</a></p>`,
+              
+              "ru": `Я проводил масштабную работу по повышению аналитической культуры в компании. На момент моего прихода аналитика строилась на фиксированных SQL-скриптах, которые формировали выгрузки по нажатию кнопки, а сотрудники затем вручную работали с этими данными.  
+                      </p><p> Используя только <strong>бесплатные и open-source решения</strong> (<strong>Google Spreadsheets, Google Drive и self-hosted Redash</strong>), мне удалось добиться значительных улучшений:  
+                      </p><ul>  
+                      <li>В отделе продукта появилась единая система ключевых экономических показателей, благодаря которой все сотрудники оперировали одними и теми же цифрами.</li>  
+                      <li>Для клиентского сервиса был разработан инструмент на основе предсказательной модели, который позволял выделять пользователей в <strong>"красной зоне"</strong> с высоким риском оттока.</li>  
+                      <li>Для маркетингового отдела был создан инструмент, который позволял сегментировать пользователей и делать <strong>таргетированные рассылки</strong>.</li>  
+                      </ul>  
+                      <p> Позже аналитическая инфраструктура перешла на новый уровень – было создано <strong>аналитическое хранилище данных</strong> на базе <strong>ClickHouse</strong> и <strong>MongoDB</strong> с оркестрацией через <strong>Airflow</strong>. Я принимал участие в разработке этого решения, а затем занимался его поддержкой в роли инженера данных.  
+                      </p><p><strong>Связанные материалы:</strong></p>  
+                      <p><a href="Модель предсказания баллов.html" target="_blank">📊 Модель предсказания баллов</a></p>  
+                      <p><a href="Исследование оттока longate.html" target="_blank">🔍 Исследование оттока</a></p>  
+                      <p><a href="churn_report.html" target="_blank">📈 Итерация модели предсказания оттока</a></p>  
+                      <p><a href="marketing_report.html" target="_blank">📩 Отчёт для маркетинга</a></p>
+                      <p><a href="ist_dashboard.png" target="_blank">📩 Дашборд для учеников на основе наших рассчётов</a></p>`
+
+            },
           media: {
             type: "image",
             url: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7?auto=format&fit=crop&q=80&w=2500",
@@ -249,24 +338,36 @@ export const content = {
         ru: "Скаенг"
       },
       period: {
-        en: "Jun 2016 - Feb 2018",
-        ru: "Июн 2016 - Фев 2018"
+        en: "Oct 2020 - Jun 2021",
+        ru: "Окт 2020 - Июн 2021"
       },
       logo: "/skyeng_logo.png",
       website: 'https://skyeng.ru/',
       description: {
-        en: "Designed user interfaces for web and mobile applications across various industries. Conducted user research and usability testing to validate design decisions.",
-        ru: "Разрабатывал пользовательские интерфейсы для веб- и мобильных приложений в различных отраслях. Проводил исследования пользователей и тестирование удобства использования для проверки дизайнерских решений."
+        "en": `I initially joined as a physics expert, validating theoretical concepts and problem solutions. However, I quickly became involved in product development.  
+                </p><p> I contributed to designing the structure and approach for exam and olympiad preparation in <strong>Skysmart</strong>. This included developing and refining the task creation flow, optimizing how problems should be illustrated, and selecting the best mechanics for engaging students.  
+                </p><p> My role extended beyond content creation—I conducted a full methodological cycle: planning lessons, developing content, teaching students, and implementing adjustments based on feedback.`,
+        
+        "ru": `Я пришёл в компанию как эксперт по физике, занимаясь валидацией теории и решений задач. Однако вскоре углубился в создание самого продукта.  
+                </p><p> Участвовал в проектировании структуры подготовки к экзаменам и олимпиадам по физике в <strong>Skysmart</strong>, разрабатывал и улучшал процессы создания задач, определял, как лучше иллюстрировать задания и какие механики наиболее эффективны для вовлечённости учеников.  
+                </p><p> Моя работа охватывала полный цикл методической деятельности: от планирования уроков и разработки контента до проведения занятий с учениками и внесения корректировок на основе обратной связи.`
       },
       projects: [
         {
           title: {
-            en: "E-commerce Redesign",
-            ru: "Редизайн E-commerce"
+            "en": "Historical Insight Video Project",
+            "ru": "Проект с историческими видеороликами"
           },
           description: {
-            en: "Complete overhaul of an e-commerce platform resulting in 28% increase in conversion rate and 42% decrease in cart abandonment. Implemented a new checkout flow and improved product discovery.",
-            ru: "Полная переработка платформы электронной коммерции, что привело к увеличению коэффициента конверсии на 28% и снижению показателя отказа от корзины на 42%. Внедрил новый процесс оформления заказа и улучшил обнаружение продуктов."
+            "en": `We had the opportunity to record physics experiment videos, but we also conceptualized and produced a series of videos featuring <strong>historical insights on famous scientists</strong>. I personally participated in these videos.  
+                    </p><p> This initiative introduced more content variety without significant expenses and was well received by students.  
+                    </p><p><strong>Related Materials:</strong></p>  
+                    <p><a href="https://youtu.be/JNILsKG9-S8" target="_blank">🎥 Example of a historical insight video</a></p>`,
+            
+            "ru": `У нас была возможность записывать видео с физическими экспериментами, но мы придумали и реализовали серию <strong>роликов с историческими справками о выдающихся учёных</strong>, в которых я также принимал участие.  
+                    </p><p> Это позволило увеличить разнообразие контента без значительных затрат и было тепло воспринято учениками.  
+                    </p><p><strong>Связанные материалы:</strong></p>  
+                    <p><a href="https://youtu.be/JNILsKG9-S8" target="_blank">🎥 Пример видео с исторической справкой</a></p>`
           },
           media: {
             type: "image",
@@ -274,24 +375,6 @@ export const content = {
             alt: {
               en: "E-commerce interface on laptop",
               ru: "Интерфейс электронной коммерции на ноутбуке"
-            }
-          }
-        },
-        {
-          title: {
-            en: "Travel Booking App",
-            ru: "Приложение для Бронирования Путешествий"
-          },
-          description: {
-            en: "Designed a mobile app for booking travel experiences, focusing on creating an immersive and inspiring interface while maintaining ease of use for booking functionality.",
-            ru: "Спроектировал мобильное приложение для бронирования путешествий, сосредоточившись на создании иммерсивного и вдохновляющего интерфейса при сохранении простоты использования функций бронирования."
-          },
-          media: {
-            type: "image",
-            url: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7?auto=format&fit=crop&q=80&w=2500",
-            alt: {
-              en: "Travel app interface showing destination browsing",
-              ru: "Интерфейс приложения для путешествий, показывающий просмотр направлений"
             }
           }
         }
@@ -307,8 +390,8 @@ export const content = {
         ru: "Научная деятельность"
       },
       period: {
-        en: "Jun 2016 - Feb 2018",
-        ru: "Июн 2016 - Фев 2018"
+        en: "Jun 2015 - Feb 2020",
+        ru: "Июн 2015 - Фев 2020"
       },
       logo: "/kfu_logo.png",
       website: 'https://kpfu.ru/',
@@ -365,8 +448,8 @@ export const content = {
         ru: "Самозанятость"
       },
       period: {
-        en: "Jun 2016 - Feb 2018",
-        ru: "Июн 2016 - Фев 2018"
+        en: "Sep 2012 - Feb 2022",
+        ru: "Сен 2012 - Фев 2022"
       },
       logo: "/creator_logo.png",
       description: {
