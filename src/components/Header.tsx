@@ -57,7 +57,7 @@ const Header: React.FC = () => {
               <span>{t('ui.contact.telegram')}</span>
             </a>
             <a 
-              href="/shakirov_cv.pdf"
+              href="/shakirov_resume.pdf"
               target="_blank"
               rel="noopener noreferrer" 
               className="flex items-center gap-1.5 px-3 py-1.5 rounded-md text-sm font-medium hover:bg-accent transition-colors"

@@ -8,10 +8,13 @@ export const content = {
       en: "Product Manager & Analyst",
       ru: "Продуктовый менеджер & Аналитик данных"
     },
-    bio: {
-      en: "Experienced in building and optimizing digital products, leveraging data to drive decision-making and enhance user experiences. Passionate about educational technology and travel services.",
-      ru: "Опытный специалист в создании и оптимизации цифровых продуктов, использующий данные для принятия решений и улучшения пользовательского опыта. Увлечен образовательными технологиями и туристическими сервисами."
-    },
+"bio": {
+  "en": "Product specialist with a focus on data-driven decision-making. Experienced in EdTech and TravelTech, I design and optimize digital products that enhance user experience and drive business growth. I test hypotheses on data, generate ideas and turn them into MVPs that deliver real impact.",
+
+  "ru": "Специалист по цифровым продуктам с фокусом на data-driven подход. Опыт в EdTech и TravelTech — разрабатываю и оптимизирую решения, улучшающие пользовательский опыт и бизнес-показатели. Тестирую гипотезы на данных, генерю идеи и превращаю их в MVP"
+}
+
+,
     photo: "/profile-photo.png", 
     contact: {
       email: "mars.shakirov@gmail.com",
@@ -25,8 +28,8 @@ export const content = {
   experience: [
     {
       title: {
-        en: "Product Manager & Data Analyst",
-        ru: "Продуктовый менеджер и Аналитик данных"
+        en: "Product Manager",
+        ru: "Продуктовый менеджер"
       },
       company: {
         en: "Wowtickets",
@@ -38,34 +41,50 @@ export const content = {
       },
       logo: "/wow_logo.png",
       website: 'https://wowtickets.com',
-        "description": {
-          "en": `I started in a fast-growing startup focused on the India and UAE markets, taking on a wide scope of responsibilities from the beginning. Initially, I was responsible for working with external content providers, overseeing the entire process from contract signing to ticket sales. During this time, we successfully integrated seven providers, often requiring custom technical solutions. I also managed communication with acquisition channels like Skyscanner and Wego, as well as payment providers such as Stripe and Trust.
-          Throughout my work, we continuously managed content and search settings, which required ongoing analysis of acquisition metrics and conversion rates.  
-      
-          </p><p> Later, my primary focus shifted to monetizing content and additional services. I developed, analyzed, and implemented projects to increase revenue, including fraud protection mechanisms. Additionally, I optimized operational processes by automating accounting reports, creating support tools, and setting up alerts to prevent financial losses and detect order processing errors.`,
-          
-          "ru": `Я начал работу в интенсивно развивающемся стартапе, ориентированном на рынки Индии и ОАЭ, с самого начала взяв на себя широкую зону ответственности. Изначально я отвечал за работу с внешними поставщиками контента, контролируя процесс от подписания договора до продаж билетов. За это время мы интегрировали семь поставщиков, в ряде случаев разрабатывая оригинальные технические решения. Также я занимался коммуникацией с каналами привлечения, такими как Skyscanner и Wego, и платёжными провайдерами, такими как Stripe и Trust.  
-      
-          На протяжении всей работы мы управляли настройками контента и поиска, что требовало постоянного анализа метрик привлечения и конверсий.  
-      
-          </p><p> Позже моя основная работа сосредоточилась на монетизации контента и дополнительных услуг. Я разрабатывал, анализировал и внедрял проекты по увеличению дохода, включая защиту от мошенничества. Помимо этого, я оптимизировал операционные процессы, автоматизируя бухгалтерскую отчётность, создавая инструменты для поддержки клиентов и настраивая алерты для предотвращения убытков и отслеживания ошибок при обработке заказов.`
-      },      
+"description": {
+  "en": `<p>This company emerged as a dedicated sub-team for international markets within my previous workplace. With a strong focus on expansion in India and the UAE, it later evolved into an independent startup, where I took on a broad range of responsibilities from day one.</p>
+
+  <p>Initially, I managed external content providers, overseeing the process from contract signing to ticket sales. During this period, we integrated <b>seven providers</b>, often requiring custom technical solutions. I also handled communication with acquisition channels like <b>Skyscanner</b> and <b>Wego</b>, as well as payment providers such as <b>Stripe</b> and <b>Trust</b>.</p>
+
+  <p>Continuous content and search optimization required constant analysis of acquisition metrics and conversion rates.</p>
+
+  <p><b>Later, my focus shifted to monetization and revenue growth.</b> I developed and implemented projects to increase income, including fraud protection mechanisms. Additionally, I optimized operational processes by automating accounting reports, creating support tools, and setting up alerts to prevent financial losses and detect order processing errors.</p>
+
+  <p>Through our active work on monetization and conversion, we successfully achieved <b>operational breakeven</b>, ensuring the company's financial sustainability.</p>`,
+
+  "ru": `<p>Эта компания возникла как подкоманда по международным рынкам в рамках моего предыдущего места работы. Первоначально сосредоточившись на расширении в Индии и ОАЭ, со временем она стала независимым стартапом, где я взял на себя широкий круг задач.</p>
+
+  <p>Сначала я управлял работой с внешними поставщиками контента, контролируя процесс от подписания договора до продажи билетов. Мы интегрировали <b>семь поставщиков</b>, в ряде случаев разрабатывая уникальные технические решения. Также я отвечал за взаимодействие с каналами привлечения, такими как <b>Skyscanner</b> и <b>Wego</b>, а также с платёжными провайдерами, включая <b>Stripe</b> и <b>Trust</b>.</p>
+
+  <p>Оптимизация контента и поиска требовала постоянного анализа метрик привлечения и конверсий.</p>
+
+  <p><b>Позже мой фокус сместился на монетизацию и рост доходов.</b> Я разрабатывал и внедрял проекты для увеличения прибыли, включая механизмы защиты от мошенничества. Дополнительно я оптимизировал операционные процессы: автоматизировал бухгалтерскую отчётность, создавал инструменты поддержки и настраивал алерты для предотвращения убытков и выявления ошибок при обработке заказов.</p>
+
+  <p>Благодаря активной работе над монетизацией и конверсией мы достигли <b>операционной безубыточности</b>, обеспечив финансовую устойчивость компании.</p>`
+}
+
+  ,      
       projects: [
         {
           "title": {
             "en": "Monetization of Unique Content",
             "ru": "Монетизация уникального контента"
           },
-          "description": {
-            "en": "I worked on projects to monetize unique content, which we called 'Combinations.' Content providers could only offer what airlines supplied, but by predicting market demand, we created custom flight pairings and sold them at a margin 2-3 times higher than regular content. Over time, I developed and launched three different systems for generating such content, which led to 15% of total sales coming from combined flights.",
-            "ru": "Я занимался проектами по монетизации уникального контента, которые мы называли 'Комбинации'. Поставщики контента были ограничены предложениями авиакомпаний, но, предсказывая спрос, мы создавали собственные сочетания рейсов и продавали их с маржой в 2-3 раза выше, чем у обычного контента. Со временем я разработал и внедрил три системы генерации такого контента, благодаря чему 15% всех продаж приходилось на комбинированные перелёты."
-          },
+"description": {
+  "en": `<p>I worked on <b>monetizing unique content</b>, which we called <b>"Combinations"</b>. While content providers could only offer flights directly supplied by airlines, we leveraged market demand predictions to create <b>custom flight pairings</b>, selling them at a margin <b>2-3 times higher</b> than regular content.</p>
+  
+  <p>Over time, I developed and launched <b>three different systems</b> for generating such content, resulting in <b>15% of total sales</b> coming from combined flights.</p>`,
+
+  "ru": `<p>Я занимался <b>монетизацией уникального контента</b>, который мы называли <b>"Комбинации"</b>. Поставщики контента могли предлагать только рейсы от авиакомпаний, но, предсказывая спрос, мы создавали <b>собственные сочетания перелётов</b> и продавали их с маржой <b>в 2-3 раза выше</b>, чем у регулярного контента.</p>
+  
+  <p>Со временем я разработал и внедрил <b>три системы</b> генерации такого контента, что привело к тому, что <b>15% всех продаж</b> приходилось на комбинированные перелёты.</p>`
+},
           media: {
             type: "image",
-            url: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&q=80&w=2500",
+            url: "map.png",
             alt: {
-              en: "Financial dashboard interface showing analytics and graphs",
-              ru: "Интерфейс финансовой панели, показывающий аналитику и графики"
+              en: "Diagram of how combinations work",
+              ru: "Схема работы комбинаций"
             }
           }
         },
@@ -74,26 +93,27 @@ export const content = {
               "en": "Improving Bookability",
               "ru": "Улучшение Bookability"
             },
-            "description": {
-              "en": `One of the main challenges in TravelTech is bookability – ensuring that a ticket or service is booked at the same price as originally shown during the search. This issue primarily depends on content providers and is traditionally considered fundamentally unsolvable.  
-          
-              We delved into the root causes of this problem and developed a system that allowed us to search for alternative options from different providers before the actual booking process began. We also learned to prioritize providers at the content display stage by analyzing the bookability of their offerings.  
-          
-              As a result, we not only improved bookability but also generated approximately 5% of total revenue from this optimization.`,
-              
-              "ru": `Одна из основных проблем в TravelTech — bookability, то есть успешность бронирования, подразумевающая, что билет или услуга бронируются по той же цене, что была доступна при изначальном поиске. Эта проблема главным образом зависит от поставщиков контента и традиционно считается фундаментально неразрешимой.  
-          
-              Мы детально изучили корни этой проблемы и разработали систему, которая позволяла искать альтернативные варианты у разных поставщиков ещё до начала реального бронирования. Также мы научились приоритизировать поставщиков на этапе показа контента, анализируя успешность их бронирования.  
-          
-              В результате мы не только улучшили bookability, но и смогли получать дополнительно около 5% от общего дохода благодаря этой оптимизации.`
-            },
+"description": {
+  "en": `<p>One of the key challenges in <b>TravelTech</b> is <b>bookability</b>—ensuring that tickets or services are booked at the same price as originally displayed during the search. This issue primarily depends on content providers and is traditionally considered <b>fundamentally unsolvable</b>.</p>
+
+  <p>We analyzed the root causes of this problem and developed a system that allowed us to <b>search for alternative options</b> from different providers before the booking process even started. Additionally, we optimized content display by <b>prioritizing providers</b> based on their bookability rates.</p>
+
+  <p>As a result, we not only improved bookability but also generated <b>approximately 5% of total revenue</b> from this optimization.</p>`,
+
+  "ru": `<p>Одна из ключевых проблем в <b>TravelTech</b> — <b>bookability</b>, то есть успешность бронирования, когда билет или услуга оформляются по той же цене, что была показана при поиске. Эта проблема исключительно зависит от поставщиков контента и традиционно считается <b>трудноразрешимой</b>.</p>
+
+  <p>Мы проанализировали проблему из первых принципов и разработали систему, которая позволяла <b>искать альтернативные варианты</b> у разных поставщиков ещё до начала реального бронирования. Кроме того, мы оптимизировали показ контента, <b>приоритизируя поставщиков</b> с более высокой успешностью бронирования.</p>
+
+  <p>В результате мы не только улучшили bookability, но и получили <b>дополнительно около 5% от общего дохода</b> благодаря этой оптимизации.</p>`
+}
+,
           
           media: {
             type: "image",
-            url: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&q=80&w=2500",
+            url: "alt_search.png",
             alt: {
-              en: "Mobile banking application interface",
-              ru: "Интерфейс мобильного банковского приложения"
+              en: "Diagram of the alternative search process",
+              ru: "Схема процесса поиска альтернативных вариантов"
             }
           }
         },
@@ -102,26 +122,28 @@ export const content = {
             "en": "Optimizing Search Response Time with Smart Caching",
             "ru": "Оптимизация времени ответа в поиске с помощью умного кеширования"
           },
-          "description": {
-            "en": `When returning search results, it is crucial not only to provide the best price but also to respond as quickly as possible. We analyzed our response times and session conversion rates and identified the optimal response time window to capture the user's attention before they switched to a competitor.  
-        
-            Since we operated between the content provider and the user, we couldn't directly control how fast responses were delivered. To address this, we developed a caching system with different storage durations based on content type and time remaining until departure.  
-        
-            This system reduced the share of timeouts from 5-6% to less than 1%, while maintaining only a slightly lower bookability rate. We also integrated caching into our combination logic, ensuring that 99% of all combinations in search results used cached data. Additionally, we reduced overall search load by 40% and improved system stability during peak traffic periods.`,
-            
-            "ru": `При отправке результатов поискового запроса важно не только предлагать лучшую цену, но и делать это как можно быстрее. Мы проанализировали скорость ответа и конверсию в сессиях, определив оптимальное время, в которое мы должны успеть показать клиенту наше предложение, пока он не ушёл к конкуренту.  
-        
-            Мы находились между поставщиком контента и пользователем, поэтому не могли напрямую контролировать скорость отдачи ответа. Для решения этой проблемы мы разработали систему кеширования с разной длительностью хранения, в зависимости от типа контента и времени до вылета.  
-        
-            Эта система сократила долю таймаутов с 5-6% до менее 1%, при этом bookability этого контента снизился незначительно. Мы также научились активно использовать этот кеш для комбинированных перелётов и добились того, что 99% комбинаций в поиске строились на основе кешированных данных. Вдобавок, нам удалось снизить общую нагрузку на поиск на 40% и повысить надёжность системы в периоды пиковых нагрузок.`
-          },
+"description": {
+  "en": `<p>Our main traffic source is <b>meta-search engines</b>, where we compete with other travel agencies on price. Initially, we believed price was the key factor, but analysis showed that <b>response time</b> is just as critical.</p>
+
+  <p>Users decide quickly, so we identified an <b>optimal response window</b> to capture their attention before they switched to competitors. Since we couldn't directly control provider speed, we developed a <b>caching system</b> with adaptive storage durations based on content type and time until departure.</p>
+
+  <p>This reduced <b>timeouts</b> from <b>5-6% to less than 1%</b> while maintaining bookability. <b>99% of search combinations</b> started using cached data, cutting search load by <b>40%</b> and improving system stability during peak traffic.</p>`,
+
+  "ru": `<p>Наш основной источник трафика — <b>мета-поисковики</b>, где мы конкурируем с тревел-агентствами по цене. Ранее мы считали, что цена — главный фактор выбора, но анализ показал, что <b>скорость ответа</b> так же важна.</p>
+
+  <p>Пользователи быстро принимают решения, поэтому мы выявили <b>оптимальный интервал ответа</b>, в который нужно уложиться, чтобы не потерять клиента. Так как скорость поставщиков нам не подконтрольна, мы разработали <b>систему кеширования</b> с разной длительностью хранения в зависимости от типа контента и времени до вылета.</p>
+
+  <p>Это снизило <b>таймауты</b> с <b>5-6% до менее 1%</b> без значительных потерь в bookability. <b>99% комбинаций</b> в поиске стали использовать кеш, нагрузка на систему упала на <b>40%</b>, а её стабильность выросла в пиковые периоды.</p>`
+}
+
+,
         
         media: {
           type: "image",
-          url: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&q=80&w=2500",
+          url: "response_time.png",
           alt: {
-            en: "Mobile banking application interface",
-            ru: "Интерфейс мобильного банковского приложения"
+            en: "Illustration of how data analysis leads to a technical solution",
+            ru: "Иллюстрация того, как анализ данных приводит к техническому решению"
           }
         }
       }
@@ -142,40 +164,39 @@ export const content = {
       },
       logo: "/mego_logo.png",
       website: 'https://mego.travel/',
-      "description": {
-        "en": `I worked in a product sub-team focused on expanding into international markets, specifically Brazil, the UAE, and India.  
-    
-        My responsibilities included optimizing operational processes, generating analytical reports, and managing pricing settings. Knowing that the international team would eventually become a separate company, I spent several months rotating through different teams (Search, UI, and Growth) to gain a broader skill set for future work.`,
-        
-        "ru": `Я работал в продуктовой подкоманде, которая занималась выходом на международные рынки, в частности в Бразилии, ОАЭ и Индии.  
-    
-        Я занимался оптимизацией операционных процессов, подготовкой аналитических отчётов и настройками ценообразования. Понимая, что в будущем международная команда станет отдельной компанией, я в течение нескольких месяцев проходил мини-стажировки в разных командах (поиск, UI, рост), чтобы получить как можно больше компетенций для дальнейшей работы.`
-      },
+"description": {
+  "en": `<p>I worked in a product sub-team focused on expanding into <b>Brazil, the UAE, and India</b>. My role included optimizing operations, generating analytics, and managing pricing.</p>
+
+  <p>Knowing the international team would eventually spin off into a separate company, I spent several months rotating through <b>Search, UI, and Growth</b> teams to broaden my expertise.</p>`,
+
+  "ru": `<p>Я работал в продуктовой подкоманде, занимающейся выходом на <b>рынки Бразилии, ОАЭ и Индии</b>. В мои задачи входили оптимизация процессов, аналитика и настройка ценообразования.</p>
+
+  <p>Понимая, что международная команда станет отдельной компанией, я несколько месяцев работал в <b>командах поиска, UI и роста</b>, чтобы расширить компетенции.</p>`
+}
+,
       projects: [
         {
           "title": {
             "en": "Optimization of Foreign Supplier Balance Replenishment",
             "ru": "Оптимизация пополнения валютного баланса иностранных поставщиков"
           },
-          "description": {
-            "en": `One of the few independent projects I had the opportunity to implement in this company was optimizing the process of replenishing foreign suppliers' currency balances.  
-        
-            Despite external circumstances, we had many suppliers requiring payments in foreign currencies at the time. Transactions were slow and unreliable, exchange rates fluctuated, and we needed a process that ensured uninterrupted ticket sales while minimizing currency exchange losses.  
-        
-            First, I analyzed the specifics of currency transactions and identified areas for streamlining the process. As a result, we developed a semi-automated system where finance teams received reports with recommended replenishment amounts based on current sales levels, allowing them to make informed balance top-ups.`,
-            
-            "ru": `Один из немногих самостоятельных проектов, который мне довелось воплотить в жизнь в этой компании, — это оптимизация процесса пополнения валютного баланса иностранных поставщиков.  
-        
-            Несмотря на внешние обстоятельства, в тот момент у нас было много поставщиков, с которыми требовалось рассчитываться в иностранной валюте. Переводы были медленными и ненадёжными, курс валюты колебался, и нам нужно было разработать процесс, который позволял бы непрерывно продавать билеты и минимизировать издержки на валютные операции.  
-        
-            Сначала я разобрался во всех особенностях валютных расчётов и нашёл точки для упрощения этих процедур. В результате мы создали полуавтоматическую систему, в которой финансисты получали отчёт с рекомендованными суммами пополнения на основе текущего уровня продаж и использовали его для своевременного пополнения баланса.`
-          },
+"description": {
+  "en": `<p>One of my key independent projects was optimizing <b>foreign currency balance replenishment</b> for suppliers. Due to <b>external challenges</b>, many partners required foreign currency payments, but transactions were <b>slow, unreliable, and affected by exchange rate fluctuations</b>.</p>
+
+  <p>After analyzing currency workflows, I identified optimization points and developed a <b>semi-automated system</b>. It provided finance teams with reports on recommended top-up amounts based on real-time sales, ensuring <b>uninterrupted ticket sales and minimized exchange losses</b>.</p>`,
+
+  "ru": `<p>Один из моих значимых самостоятельных проектов — <b>оптимизация пополнения валютных балансов</b> поставщиков. <b>Из-за внешних сложностей</b> расчёты в иностранной валюте были <b>медленными, нестабильными и зависели от курсов</b>.</p>
+
+  <p>Проанализировав процессы, я выявил точки оптимизации и внедрил <b>полуавтоматическую систему</b>. Она формировала отчёты с рекомендованными суммами пополнения на основе продаж, позволяя финансистам <b>обеспечивать бесперебойные платежи и минимизировать потери на конверсии</b>.</p>`
+}
+
+,
           media: {
             type: "image",
-            url: "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80&w=2500",
+            url: "top_up.png",
             alt: {
-              en: "Analytics dashboard with data visualizations",
-              ru: "Панель аналитики с визуализацией данных"
+              en: "Diagram of how supplier currency balance top-ups were optimized",
+              ru: "Схема оптимизации пополнения валютных балансов поставщиков"
             }
           }
         }
@@ -196,52 +217,74 @@ export const content = {
       },
       logo: "/umschool_logo.png",
       website: 'https://umschool.net/',
-      "description": {
-        "en": `I joined the company with the goal of developing a new feature for the product—an assessment of students' knowledge across all topics, regardless of the subject.  
-            </p><p> Alongside this, I was assigned to lead the content creation department. After successfully completing this task, I continued working on new features related to knowledge assessment, restructuring homework assignments, and predicting student outcomes.  
-            </p><p> Over time, I transitioned to more business-oriented tasks: calculating unit economics and building analytical reports for executives. This gradually evolved into the creation of an analytics department, which I took the lead in.  
-            </p><p> Within this department, we focused on unifying metric calculation methods across product, finance, and marketing teams. As we grew, we established the first ETL processes and a notification system.  
-            </p><p> In the final stage of my time at the company, I handed over analytics leadership and shifted my focus to Data Engineering. I integrated various external data sources, designed a data warehouse, and contributed to building the company's analytical infrastructure.`,
-        
-        "ru": `Я присоединился к компании с целью создать новую фичу в продукте — оценку знаний учеников по всем темам, вне зависимости от предмета.  
-            </p><p> Попутно с этим мне поручили руководить отделом создателей контента. После успешного выполнения этой задачи я продолжил заниматься разработкой новых фичей по оценке знаний, переработке структуры домашних работ и предсказанию результатов учеников.  
-            </p><p> Со временем я переключился на более бизнес-ориентированные задачи: расчёт юнит-экономики и построение аналитических отчётов для руководителей. Это постепенно переросло в создание аналитического отдела, которым я начал руководить.  
-            </p><p> В рамках отдела мы решали задачу унификации способов расчёта метрик для продуктового, финансового и маркетингового подразделений. По мере развития мы смогли построить первые ETL-процессы и систему уведомлений.  
-            </p><p> На завершающем этапе моей работы в компании я передал управление аналитикой и сосредоточился на задачах Дата Инженерии: подключал различные внешние источники данных, проектировал хранилище данных и участвовал в построении аналитической инфраструктуры.`
-      },
+"description": {
+  "en": `<p>I joined the company to develop a new feature—an assessment of students' knowledge across all topics, regardless of the subject.  
+  </p><p>At the same time, I was entrusted with leading the content creation department. After successfully handling this, I continued developing new features for knowledge assessment, restructuring homework assignments, and predicting student outcomes.  
+  </p><p>Beyond my core tasks, I constantly <b>proposed and implemented solutions</b> to various challenges across the company. Over time, I transitioned to more business-oriented work: calculating unit economics and building analytical reports for executives. This organically led to the creation of an analytics department, which I took the lead in.  
+  </p><p>Within this department, we standardized metric calculations across product, finance, and marketing teams. As the company grew, we built the first ETL processes and a notification system.  
+  </p><p>In the final stage of my tenure, I handed over analytics leadership and shifted focus to Data Engineering—integrating external data sources, designing a data warehouse, and contributing to the company’s analytical infrastructure.</p>`,
+
+  "ru": `<p>Я присоединился к компании, чтобы разработать новую фичу — систему оценки знаний учеников по всем темам, вне зависимости от предмета.  
+  </p><p>Параллельно мне поручили руководство отделом контента. После успешного завершения этой задачи я продолжил <b>предлагать и внедрять решения</b> в области оценки знаний, переработки структуры домашних заданий и предсказания результатов учеников.  
+  </p><p>Постепенно я переключился на более бизнес-ориентированные задачи: расчёт юнит-экономики и построение аналитических отчётов для руководства. Это привело к созданию аналитического отдела, которым я начал руководить.  
+  </p><p>В рамках отдела мы унифицировали расчёт метрик для продуктового, финансового и маркетингового подразделений. Позже мы разработали первые ETL-процессы и систему уведомлений.  
+  </p><p>На завершающем этапе работы в компании я передал управление аналитикой и сосредоточился на Data Engineering: интегрировал внешние источники данных, проектировал хранилище и участвовал в построении аналитической инфраструктуры.</p>`
+}
+,
       projects: [
         {
           title: {
             "en": "Knowledge Assessment System for Students",
             "ru": "Система оценки знаний учеников"
           },
-          description: {
-            "en": `I was tasked with designing a method to assess students' knowledge across various topics and sections of all subjects they studied.  
-                    </p><p> To achieve this, I chose to use the Bayesian Knowledge Tracing due to its relative simplicity and interpretability compared to Machine Learning/Deep Learning models.  
-                    </p><p> We divided all available topics into small subtopics, which we called "umits" Each task was designed to test a student's competence in specific umits. Depending on the task's outcome, the student's competence level would increase or decrease accordingly. An additional requirement for the project was to use only original tasks.  
-                    </p><p> As a result, I managed the hiring and workflow optimization of several dozen people who created and "labeled" these tasks. To facilitate the labeling process, I independently developed a web application for a more efficient workflow.  
-                    </p><p> By February 2022, we launched the project in a test mode, and from the new academic year (September 2022), it was fully implemented for all students. The idea behind this project was not so much to attract new users but to increase retention – students who had achieved significant knowledge progress would be less inclined to switch to competitors to avoid losing their progress.  
-                    </p><p> In practice, students with high engagement and performance already had a low churn rate. However, the new feature became a strong marketing tool, allowing us to attract a significant audience by branding it as a revolution in education under the name "UmSchool NEO".  
-                    </p><p><strong>Related Materials:</strong></p>  
-                    </p><p> <a href="https://tongyuzhou.com/bkt-explorable/" target="_blank"> 🔗 Explore BKT</a> 
-                    </p><p> <a href="https://umitation-programm.streamlit.app/" target="_blank"> 🔗 Umitation Program</a>`,
-            
-            "ru": `Мне предстояло придумать метод оценки знаний учеников по различным темам и разделам всех предметов, по которым они занимаются.  
-                    </p><p> Для этого я выбрал модель BKT (Bayesian Knowledge Tracing), так как она отличается сравнительной простотой и интерпретируемостью по сравнению с моделями машинного обучения и нейросетями.  
-                    </p><p> Мы разбили все темы на мелкие подтемы, которые назвали "умиты". Каждое задание проверяло компетенцию ученика по конкретным умитам, и в зависимости от результата решения уровень компетенции либо увеличивался, либо уменьшался. Дополнительным требованием было использование только оригинальных задач.  
-                    </p><p> В итоге я занимался наймом и оптимизацией работы нескольких десятков человек, которые создавали и разметивали эти задачи. Для удобства разметки я самостоятельно разработал веб-приложение, чтобы упростить процесс.  
-                    </p><p> В феврале 2022 года мы запустили проект в тестовом режиме, а уже с нового учебного года (сентябрь 2022) он работал для всех учеников. Основная идея проекта заключалась не столько в привлечении новых пользователей, сколько в удержании существующих – ученики, добившиеся высоких результатов, были менее склонны переходить к конкурентам, чтобы не потерять прогресс.  
-                    </p><p> На практике оказалось, что у активно занимающихся учеников и так был низкий churn-rate. Однако новая фича стала мощным маркетинговым инструментом, позволив привлечь значительную аудиторию, преподнеся это как революцию в образовательном процессе под названием "Умскул NEO."  
-                    </p><p><strong>Связанные материалы:</strong></p>  
-                    </p><p> <a href="https://tongyuzhou.com/bkt-explorable/" target="_blank"> 🔗Иллюстрация к алгоритму BKT</a> 
-                    </p><p> <a href="https://umitation-programm.streamlit.app/" target="_blank"> 🔗Программа для умитирования</a>`
-          },
+"description": {
+  "en": `<p>This project was one of the most significant in my career. I developed an algorithm that assessed students' knowledge of individual topics based on the tasks they completed.</p>
+
+<p>To achieve this, I chose <b>Bayesian Knowledge Tracing (BKT)</b> for its balance of simplicity and interpretability. We structured all topics into granular <b>"umits"</b>, where each task assessed multiple umits and dynamically adjusted a student's competence level.</p>
+
+<p>Leadership required using only original tasks, which led me to manage <b>content production</b>. I built and optimized the content team, streamlined workflows, and developed a <b>web application</b> that automated task annotation and mapped umits to exercises. This also deepened my expertise in <b>copyright regulations</b> for educational content.</p>
+
+<p>We also developed a <b>Netflix-like recommendation system</b> that suggested review materials based on student progress. Additionally, I independently designed and implemented the <b>umitation program</b>, a web-based tool that modeled knowledge retention and helped refine our algorithm.</p>
+
+<p>By February 2022, the project launched in test mode, and by September 2022, it was rolled out to <b>all users</b>. While its main goal was student retention—ensuring progress reduced churn—it also became a strong <b>marketing tool</b>, positioned as a breakthrough in education under "<b>UmSchool NEO</b>".</p>
+
+<hr>
+<p><b>🔗 Related Materials:</b></p>
+<ul>
+  <li><a href="https://tongyuzhou.com/bkt-explorable/" target="_blank">🧠 Explore Bayesian Knowledge Tracing</a></li>
+  <li><a href="https://umitation-programm.streamlit.app/" target="_blank">🖥️ Umitation Program</a></li>
+</ul>
+
+`,
+
+  "ru": `<p>Этот проект стал одним из самых значимых в моей карьере. Мне удалось реализовать алгоритм, который оценивал знания учеников по отдельным темам на основе решенных им задач.</p>
+
+<p>Для этого я выбрал <b>BKT (Bayesian Knowledge Tracing)</b> за его простоту и интерпретируемость. Темы были разбиты на <b>"умиты"</b>, а каждое задание оценивало <b>сразу несколько умитов</b>, динамически корректируя уровень знаний ученика.</p>
+
+<p>Руководство потребовало <b>использовать только оригинальные задачи</b>, поэтому я взял на себя управление <b>производством контента</b>. Оптимизировал процессы, автоматизировал работу команды и разработал <b>веб-приложение</b> для разметки задач и привязки умитов к заданиям. Это также помогло мне глубже разобраться в <b>авторском праве</b> на образовательные материалы.</p>
+
+<p>На базе системы мы создали <b>рекомендательный механизм в стиле Netflix</b>, подбирающий материалы для повторения. Помимо этого, я самостоятельно разработал <b>программу для умитирования</b> — веб-приложение, моделирующее процесс усвоения знаний, что помогло улучшить алгоритм.</p>
+
+<p>В феврале 2022 года проект запустился в тестовом режиме, а в сентябре 2022 его <b>раскатали на всех пользователей</b>. Основная цель — <b>удержание учеников</b>: чем выше прогресс ученика, тем меньше вероятность смены образовательной платформы. Однако проект стал и <b>сильным маркетинговым инструментом</b>, представленным как революция в образовании под названием "<b>Умскул NEO</b>".</p>
+
+<hr>
+<p><b>🔗 Связанные материалы:</b></p>
+<ul>
+  <li><a href="https://tongyuzhou.com/bkt-explorable/" target="_blank"> 🧠 Про алгоритм BKT</a></li>
+  <li><a href="https://umitation-programm.streamlit.app/" target="_blank"> 🖥️ Программа для умитирования</a></li>
+</ul>
+
+`
+}
+
+
+,
           media: {
             type: "image",
-            url: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&q=80&w=2500",
+            url: "learning_progress.png",
             alt: {
-              en: "E-commerce interface on laptop",
-              ru: "Интерфейс электронной коммерции на ноутбуке"
+              en: "Diagram of how the student performance tracking system works and is displayed",
+              ru: "Схема работы и отображения системы успеваемости ученика"
             }
           }
         },
@@ -250,33 +293,42 @@ export const content = {
             "en": "Development of New Features for the Educational Product",
             "ru": "Разработка новых фич для образовательного продукта"
           },
-          "description": {
-            "en": `I worked on developing new features for the product. Many of them were adaptations of existing solutions from other educational platforms, but some were entirely original ideas.  
-                    </p><p> One such idea was <strong>"Rainbow of Success"</strong> – a system where students could continuously track their progress in a subject based on the number of completed tasks and their success rate. This progress was converted into two metrics: <strong>"diligence"</strong> and <strong>"quality"</strong>, visualized as a trajectory within a rainbow. The farther layers of the rainbow represented a higher probability of achieving top exam scores.  
-                    </p><p> Another feature I developed was a special type of homework called <strong>"Bubbles"</strong>. This system categorized all homework tasks into three difficulty levels. Depending on whether a student solved a task correctly, the next task would be either more challenging or easier. In the end, the system ensured that students only practiced tasks at their optimal level, creating a personalized learning experience.  
-                    </p><p> Unfortunately, these features remained at the idea and prototype stage and were never released into production. The main reason was that the development team was focused on a major redesign and solving more fundamental issues. Additionally, I lacked sufficient data to prove that these features would significantly improve key business metrics.  
-                    </p><p><strong>Related Materials:</strong></p>  
-                    <p><a href="ideas.pdf" target="_blank">📄 Presentation of Ideas</a></p>  
-                    <p><a href="Пузырьки 13 мая.html" target="_blank">🔗 Prototype of "Bubbles"</a></p>  
-                    <p><a href="Новая формула для оценки домашки.html" target="_blank">🔗 Research on the complexity of homework</a></p>  
-                    <p><a href="Универсальная_радуга_результата.html" target="_blank">📊 Analytical Basis for "Rainbow of Success"</a></p>`,
-            
-            "ru": `Я разрабатывал новые фичи для продукта. Многие из них были "калькой" с других образовательных продуктов, но были и абсолютно новые идеи.  
-                    </p><p> Одна из таких идей – <strong>"Радуга успеха"</strong>. Её суть заключалась в том, чтобы ученик непрерывно видел свой прогресс по предмету, основанный на количестве решённых задач и их успешности. Этот прогресс конвертировался в две условные единицы: <strong>"старательность"</strong> и <strong>"качество"</strong>, а траектория успеха отображалась внутри радуги. Более дальние слои радуги указывали на более высокую вероятность сдать экзамен на высокие баллы.  
-                    </p><p> Также я разработал особый формат домашнего задания, который назвал <strong>"Пузырьки"</strong>. Система делила все задачи на три уровня сложности, а в зависимости от того, решил ученик задачу или нет, следующая задача предлагалась либо сложнее, либо проще. В конечном итоге ученик должен был работать только с теми задачами, которые соответствовали его уровню понимания темы, что обеспечивало индивидуализированный подход.  
-                    </p><p> К сожалению, эти фичи так и остались на уровне идей и прототипов, не дойдя до продакшена. Основная причина – команда разработки была сосредоточена на глобальном переходе на новый дизайн и решении более фундаментальных задач. Кроме того, у меня не было достаточных данных, подтверждающих, что такие механики могли бы заметно улучшить ключевые экономические показатели.  
-                    </p><p><strong>Связанные материалы:</strong></p>  
-                    <p><a href="ideas.pdf" target="_blank">📄 Презентация идей</a></p>  
-                    <p><a href="Пузырьки 13 мая.html" target="_blank">🔗 Прототип "Пузырьков"</a></p>  
-                    <p><a href="Новая формула для оценки домашки.html" target="_blank">🔗Исследование на тему сложности домашек</a></p>  
-                    <p><a href="Универсальная_радуга_результата.html" target="_blank">📊 Аналитические предпосылки к "Радуге успеха"</a></p>`
-          },
+"description": {
+  "en": `<p>I worked on developing new features for the product—some inspired by existing solutions, others entirely original.  
+  </p><p>One such idea was <strong>"Rainbow of Success"</strong>—a system where students could track their progress based on completed tasks and success rate. Progress was converted into two metrics: <strong>"diligence"</strong> and <strong>"quality"</strong>, visualized as a trajectory within a rainbow, where outer layers indicated a higher probability of top exam scores.  
+  </p><p>Another feature was <strong>"Bubbles"</strong>—a homework system that adapted task difficulty dynamically, ensuring students practiced at their optimal level for a personalized learning experience.  
+  </p><p>These features remained at the prototype stage, as development resources were focused on a major redesign and more fundamental tasks. Additionally, I lacked sufficient data to prove their impact on key business metrics.</p>
+
+  <hr>
+  <p><b>🔗 Related Materials:</b></p>
+  <ul>
+    <li><a href="ideas.pdf" target="_blank">📄 Presentation of Ideas for CPO</a></li>
+    <li><a href="Пузырьки 13 мая.html" target="_blank">🔗 Prototype of "Bubbles"</a></li>
+    <li><a href="Новая формула для оценки домашки.html" target="_blank">🔗 Research on Homework Complexity</a></li>
+    <li><a href="Универсальная_радуга_результата.html" target="_blank">📊 Analytical Basis for "Rainbow of Success"</a></li>
+  </ul>`,
+
+  "ru": `<p>Я разрабатывал новые фичи для продукта — часть из них была адаптацией существующих решений, но были и абсолютно оригинальные идеи.  
+  </p><p>Одна из них — <strong>"Радуга успеха"</strong>, система, где ученики могли отслеживать свой прогресс по количеству решённых задач и их успешности. Прогресс конвертировался в две метрики: <strong>"старательность"</strong> и <strong>"качество"</strong>, визуализируясь в виде радуги, где дальние слои указывали на высокую вероятность успешной сдачи экзамена.  
+  </p><p>Другая идея — <strong>"Пузырьки"</strong>, адаптивная система домашнего задания, которая динамически подбирала сложность задач, создавая персонализированный опыт обучения.  
+  </p><p>Фичи не дошли до продакшена, так как команда разработки сосредоточилась на редизайне и приоритетных задачах, а у меня не было достаточных данных для доказательства их влияния на бизнес-показатели.</p>
+
+  <hr>
+  <p><b>🔗 Связанные материалы:</b></p>
+  <ul>
+    <li><a href="ideas.pdf" target="_blank">📄 Презентация идей для руководства</a></li>
+    <li><a href="Пузырьки 13 мая.html" target="_blank">🔗 Прототип "Пузырьков"</a></li>
+    <li><a href="Новая формула для оценки домашки.html" target="_blank">🔗 Исследование сложности домашних заданий</a></li>
+    <li><a href="Универсальная_радуга_результата.html" target="_blank">📊 Аналитические предпосылки "Радуги успеха"</a></li>
+  </ul>`
+}
+,
           media: {
             type: "image",
-            url: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7?auto=format&fit=crop&q=80&w=2500",
+            url: "bubbles.png",
             alt: {
-              en: "Travel app interface showing destination browsing",
-              ru: "Интерфейс приложения для путешествий, показывающий просмотр направлений"
+              en: "Diagram of the new homework format called 'Bubbles",
+              ru: "Схема нового формата домашки под названием 'Пузырьки'"
             }
           }
         },
@@ -294,11 +346,13 @@ export const content = {
                       <li>For the marketing team, we developed a targeted messaging tool that allowed them to segment users based on specific criteria and execute targeted campaigns.</li>  
                       </ul>  
                       <p> Later, this evolved into a more advanced infrastructure, incorporating an <strong>analytical data warehouse</strong> powered by <strong>ClickHouse</strong> and <strong>MongoDB</strong>, orchestrated with <strong>Airflow</strong>. I was actively involved in developing this solution and later took on its maintenance as a Data Engineer.  
-                      </p><p><strong>Related Materials:</strong></p>  
+                      <hr>
+					  </p><p><strong>Related Materials:</strong></p>  
+                      <p><a href="https://public.tableau.com/app/profile/mars.shakirov/viz/longate_22_23/sheet8" target="_blank">📊 General retention report</a></p>  
                       <p><a href="Модель предсказания баллов.html" target="_blank">📊 Score Prediction Model</a></p>  
                       <p><a href="Исследование оттока longate.html" target="_blank">🔍 Churn Analysis</a></p>  
                       <p><a href="churn_report.html" target="_blank">📈 Iteration of the Churn Prediction Model</a></p>  
-                      <p><a href="marketing_report.html" target="_blank">📩 Marketing Report</a></p>
+                      <p><a href="marketing_report.html" target="_blank">📩 Research for Marketing team</a></p>
                       <p><a href="ist_dashboard.png" target="_blank">📩 Dashboard for students based on our calculations</a></p>`,
               
               "ru": `Я проводил масштабную работу по повышению аналитической культуры в компании. На момент моего прихода аналитика строилась на фиксированных SQL-скриптах, которые формировали выгрузки по нажатию кнопки, а сотрудники затем вручную работали с этими данными.  
@@ -309,20 +363,22 @@ export const content = {
                       <li>Для маркетингового отдела был создан инструмент, который позволял сегментировать пользователей и делать <strong>таргетированные рассылки</strong>.</li>  
                       </ul>  
                       <p> Позже аналитическая инфраструктура перешла на новый уровень – было создано <strong>аналитическое хранилище данных</strong> на базе <strong>ClickHouse</strong> и <strong>MongoDB</strong> с оркестрацией через <strong>Airflow</strong>. Я принимал участие в разработке этого решения, а затем занимался его поддержкой в роли инженера данных.  
-                      </p><p><strong>Связанные материалы:</strong></p>  
+                      <hr>
+					  </p><p><strong>Связанные материалы:</strong></p>  
+                      <p><a href="https://public.tableau.com/app/profile/mars.shakirov/viz/longate_22_23/sheet8" target="_blank">📊 Общий отчёт по продлениям</a></p>  
                       <p><a href="Модель предсказания баллов.html" target="_blank">📊 Модель предсказания баллов</a></p>  
                       <p><a href="Исследование оттока longate.html" target="_blank">🔍 Исследование оттока</a></p>  
                       <p><a href="churn_report.html" target="_blank">📈 Итерация модели предсказания оттока</a></p>  
-                      <p><a href="marketing_report.html" target="_blank">📩 Отчёт для маркетинга</a></p>
+                      <p><a href="marketing_report.html" target="_blank">📩 Исследование для команды маркетинга</a></p>
                       <p><a href="ist_dashboard.png" target="_blank">📩 Дашборд для учеников на основе наших рассчётов</a></p>`
 
             },
           media: {
             type: "image",
-            url: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7?auto=format&fit=crop&q=80&w=2500",
+            url: "analytics.png",
             alt: {
-              en: "Travel app interface showing destination browsing",
-              ru: "Интерфейс приложения для путешествий, показывающий просмотр направлений"
+              en: "Diagram showing the difference between the old and new analytics structure",
+              ru: "Схема, показывающая разницу между старой и новой аналитической структурой"
             }
           }
         }
@@ -330,12 +386,12 @@ export const content = {
     },
     {
       title: {
-        en: "Product Expert",
-        ru: "Методист-аналитик"
+        en: "Learning Experience Designer",
+        ru: "Методист по разработке курсов"
       },
       company: {
         en: "Skyeng",
-        ru: "Скаенг"
+        ru: "Скайенг"
       },
       period: {
         en: "Oct 2020 - Jun 2021",
@@ -356,25 +412,27 @@ export const content = {
         {
           title: {
             "en": "Historical Insight Video Project",
-            "ru": "Проект с историческими видеороликами"
+            "ru": "Проект с видеороликами с исторической справкой"
           },
           description: {
             "en": `We had the opportunity to record physics experiment videos, but we also conceptualized and produced a series of videos featuring <strong>historical insights on famous scientists</strong>. I personally participated in these videos.  
                     </p><p> This initiative introduced more content variety without significant expenses and was well received by students.  
-                    </p><p><strong>Related Materials:</strong></p>  
+                    <hr>
+					</p><p><strong>Related Materials:</strong></p>  
                     <p><a href="https://youtu.be/JNILsKG9-S8" target="_blank">🎥 Example of a historical insight video</a></p>`,
             
             "ru": `У нас была возможность записывать видео с физическими экспериментами, но мы придумали и реализовали серию <strong>роликов с историческими справками о выдающихся учёных</strong>, в которых я также принимал участие.  
                     </p><p> Это позволило увеличить разнообразие контента без значительных затрат и было тепло воспринято учениками.  
-                    </p><p><strong>Связанные материалы:</strong></p>  
+                    <hr>
+					</p><p><strong>Связанные материалы:</strong></p>  
                     <p><a href="https://youtu.be/JNILsKG9-S8" target="_blank">🎥 Пример видео с исторической справкой</a></p>`
           },
           media: {
             type: "image",
-            url: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&q=80&w=2500",
+            url: "collage.png",
             alt: {
-              en: "E-commerce interface on laptop",
-              ru: "Интерфейс электронной коммерции на ноутбуке"
+              en: "Collage of our video recordings with physics experiments and historical insights.",
+              ru: "Коллаж о том, как мы записывали видео с физическими экспериментами и историческими справками"
             }
           }
         }
@@ -413,20 +471,22 @@ export const content = {
           "description": {
             "en": `In January 2019, I personally arranged an internship with a professor at the <strong>University of Bayreuth</strong> to work on molecular dynamics simulations.  
                     </p><p> As a result, I had an excellent summer, met wonderful people, and ultimately realized that even abroad, a career in science remains a highly niche trajectory.  
-                    </p><p><strong>Related Materials:</strong></p>  
+                    <hr>
+					</p><p><strong>Related Materials:</strong></p>  
                     <p><a href="https://www.gekle.physik.uni-bayreuth.de/en/team/" target="_blank">🌍 University of Bayreuth – Visitors List</a></p>`,
             
             "ru": `В январе 2019 года я самостоятельно договорился с профессором из <strong>университета города Bayreuth</strong> о прохождении стажировки по моделированию молекулярной динамики.  
                     </p><p> В итоге я провёл замечательное лето, познакомился с прекрасными людьми и окончательно убедился, что даже за рубежом наука остаётся весьма нишевой карьерной траекторией.  
-                    </p><p><strong>Связанные материалы:</strong></p>  
+                    <hr>
+					</p><p><strong>Связанные материалы:</strong></p>  
                     <p><a href="https://www.gekle.physik.uni-bayreuth.de/en/team/" target="_blank">🌍 Университет Bayreuth – Список гостей</a></p>`
           },
           media: {
             type: "image",
-            url: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&q=80&w=2500",
+            url: "bayreuth.png",
             alt: {
-              en: "E-commerce interface on laptop",
-              ru: "Интерфейс электронной коммерции на ноутбуке"
+              en: "My wonderful time in Bayreuth",
+              ru: "Моё прекрасное время в Байройте"
             }
           }
         },
@@ -440,22 +500,24 @@ export const content = {
                     </p><p> First, together with the primary course author, we revised the problem-solving guide, where I contributed my own problems and attempted to reflect my vision of what students should take away from the course.  
                     </p><p> Later, I fully modernized the course, integrating <strong>Python programming</strong>, <strong>LaTeX formatting</strong>, and practical exercises on <strong>molecular dynamics simulations</strong> and <strong>optical spectrum calculations</strong>. Unfortunately, this updated version of the course was not formally documented in official study materials.  
                     </p><p><strong>Related Materials:</strong></p>  
-                    <p><a href="https://kpfu.ru/portal/docs/F1367493855/Tochechnye.otobrazheniya.pdf" target="_blank">📖 Published structured guide used in the "Modeling and Visualization in Physics" course.</p>  
+                    <hr>
+					<p><a href="https://kpfu.ru/portal/docs/F1367493855/Tochechnye.otobrazheniya.pdf" target="_blank">📖 Published structured guide used in the "Modeling and Visualization in Physics" course.</p>  
                     <p><a href="https://youtube.com/playlist?list=PLmCLVWoa79_URDW9RRiOwVrL_knw8C7XL&si=OTClCme5_exLc-Yv" target="_blank">🎥 LaTeX Course for Students</a>: A video tutorial series recorded during the pandemic.</p>`,
             
             "ru": `С момента прихода на кафедру теоретической физики я предложил изменить подход к изучению курса <strong>"Моделирование и визуализация в физике"</strong>.  
                     </p><p> В первую очередь, совместно с основным автором курса, мы переработали учебное пособие, куда я добавил авторские задачи и постарался выразить своё видение того, что студенты должны извлечь из прохождения курса.  
                     </p><p> Затем я полностью обновил курс, добавив в него <strong>программирование на Python</strong>, <strong>оформление работ в LaTeX</strong> и задания по <strong>моделированию молекулярной динамики</strong> и <strong>расчёту оптических спектров</strong>. К сожалению, эта версия курса не была формализована в учебных пособиях.  
-                    </p><p><strong>Связанные материалы:</strong></p>  
+                    <hr>
+					</p><p><strong>Связанные материалы:</strong></p>  
                     <p><a href="https://kpfu.ru/portal/docs/F1367493855/Tochechnye.otobrazheniya.pdf" target="_blank">📖 Опубликованное структурированное пособие, использовавшееся в курсе "Моделирование и визуализация в физике".</p>  
                     <p><a href="https://youtube.com/playlist?list=PLmCLVWoa79_URDW9RRiOwVrL_knw8C7XL&si=OTClCme5_exLc-Yv" target="_blank">🎥 Курс LaTeX для студентов</a>: Видео-курс, записанный во время пандемии для студентов.</p>`
           },
           media: {
             type: "image",
-            url: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7?auto=format&fit=crop&q=80&w=2500",
+            url: "near_whiteboard.png",
             alt: {
-              en: "Travel app interface showing destination browsing",
-              ru: "Интерфейс приложения для путешествий, показывающий просмотр направлений"
+              en: "Photo of me teaching in front of a university whiteboard",
+              ru: "Фото, где я веду занятие в университете у доски"
             }
           }
         }
@@ -509,10 +571,10 @@ export const content = {
           },
           media: {
             type: "image",
-            url: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&q=80&w=2500",
+            url: "forum.png",
             alt: {
-              en: "E-commerce interface on laptop",
-              ru: "Интерфейс электронной коммерции на ноутбуке"
+              en: "Cover slide of my talk at the online forum",
+              ru: "Обложка моего выступления на онлайн-форуме"
             }
           }
         }
@@ -546,8 +608,8 @@ export const content = {
         ru: "Телеграм"
       },
       cv: {
-        en: "View CV",
-        ru: "Открыть CV"
+        en: "Resume",
+        ru: "Резюме"
       }
     }
   }
