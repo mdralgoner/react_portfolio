@@ -5,7 +5,12 @@ import { Mail, Send, FileText } from 'lucide-react';
 import { content } from '../data/content';
 
 const Header: React.FC = () => {
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
+  
+  // Function to get the appropriate resume file based on language
+  const getResumeFile = () => {
+    return language === 'ru' ? '/shakirov_resume_ru.pdf' : '/shakirov_resume_en.pdf';
+  };
   
   return (
     <header className="relative w-full py-12 md:py-16 animate-slide-down">
@@ -57,7 +62,7 @@ const Header: React.FC = () => {
               <span>{t('ui.contact.telegram')}</span>
             </a>
             <a 
-              href="/shakirov_resume.pdf"
+              href={getResumeFile()}
               target="_blank"
               rel="noopener noreferrer" 
               className="flex items-center gap-1.5 px-3 py-1.5 rounded-md text-sm font-medium hover:bg-accent transition-colors"
